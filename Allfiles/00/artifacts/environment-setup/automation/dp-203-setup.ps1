@@ -2,6 +2,21 @@ Set-ExecutionPolicy Unrestricted
 			
 cd C:\dp-203\DP-203-Data-Engineer\Allfiles\00\artifacts\environment-setup\automation
 
+
+#### CONNEXION SANS INTERACTION ####
+# Le TenantId ne change jamais
+$tenantId = "3670fdab-17f6-4743-b8f8-6ac0784204aa"
+
+# Credentials spécifiques à un utilisateur
+# à changer pour chaque utilisateur !!!!
+$user = "bryan.r@dp203sept.onmicrosoft.com"
+$password = "Ssmallmxmx5!"
+
+# Sécurisation des mots de passe
+$securePassword = $password | ConvertTo-SecureString -AsPlainText -Force
+$credentials = New-Object -TypeName "System.Management.Automation.PSCredential" -ArgumentList $user,$securePassword
+####################################
+
 # Import modules
 Import-Module Az.CosmosDB
 Import-Module "..\solliance-synapse-automation"
@@ -16,13 +31,18 @@ $pipelinesPath = "..\pipelines"
 $sqlScriptsPath = "..\sql"
 
 # User must sign in using az login
-Write-Host "Sign into Azure using your credentials.."
-az login
+# Write-Host "Sign into Azure using your credentials.."
+# az login
+az login -t $tenant -u $user -p $password
 
 # Now sign in again for PowerShell resource management and select subscription
-Write-Host "Now sign in again to allow this script to create resources..."
-Connect-AzAccount
+# Write-Host "Now sign in again to allow this script to create resources..."
+# Connect-AzAccount
+Connect-AzAccount -Tenant $tenant -Credential $credentials
 
+
+# Les comptes ne contiennent qu'une souscription donc normalement, on n'a plus besoin de ça.
+# Je le laisse au cas où on doit faire des tests sur des comptes qui contiennent plus d'un abonnement
 $subs = Get-AzSubscription | Select-Object
 if($subs.GetType().IsArray -and $subs.length -gt 1){
         Write-Host "Multiple subscriptions detected - please select the one you want to use:"
@@ -64,29 +84,29 @@ Write-Host "User ID: $userId"
 
 # Prompt user for a password for the SQL Database
 write-host ""
-$sqlPassword = ""
+$sqlPassword = "Azure2022!" # On force le mot de passe pour être un peu plus tranquille
 $complexPassword = 0
 
-while ($complexPassword -ne 1)
-{
-    $sqlPassword = Read-Host "Enter a password for the Azure SQL Database.
-    `The password must meet complexity requirements:
-    ` - Minimum 8 characters. 
-    ` - At least one upper case English letter [A-Z
-    ` - At least one lower case English letter [a-z]
-    ` - At least one digit [0-9]
-    ` - At least one special character (!,@,#,%,^,&,$)
-    ` "
+# while ($complexPassword -ne 1)
+# {
+#     $sqlPassword = Read-Host "Enter a password for the Azure SQL Database.
+#     `The password must meet complexity requirements:
+#     ` - Minimum 8 characters. 
+#     ` - At least one upper case English letter [A-Z
+#     ` - At least one lower case English letter [a-z]
+#     ` - At least one digit [0-9]
+#     ` - At least one special character (!,@,#,%,^,&,$)
+#     ` "
 
-    if(($sqlPassword -cmatch '[a-z]') -and ($sqlPassword -cmatch '[A-Z]') -and ($sqlPassword -match '\d') -and ($sqlPassword.length -ge 8) -and ($sqlPassword -match '!|@|#|%|^|&|$'))
-    {
-        $complexPassword = 1
-    }
-    else
-    {
-        Write-Output "$sqlPassword does not meet the compexity requirements."
-    }
-}
+#     if(($sqlPassword -cmatch '[a-z]') -and ($sqlPassword -cmatch '[A-Z]') -and ($sqlPassword -match '\d') -and ($sqlPassword.length -ge 8) -and ($sqlPassword -match '!|@|#|%|^|&|$'))
+#     {
+#         $complexPassword = 1
+#     }
+#     else
+#     {
+#         Write-Output "$sqlPassword does not meet the compexity requirements."
+#     }
+# }
 
 
 # Register resource providers
