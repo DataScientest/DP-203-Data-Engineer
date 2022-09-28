@@ -4,13 +4,17 @@ cd C:\dp-203\DP-203-Data-Engineer\Allfiles\00\artifacts\environment-setup\automa
 
 
 #### CONNEXION SANS INTERACTION ####
+# Déconnexion
+az logout
+Disconnect-AzAccount
+
 # Le TenantId ne change jamais
 $tenantId = "3670fdab-17f6-4743-b8f8-6ac0784204aa"
 
 # Credentials spécifiques à un utilisateur
 # à changer pour chaque utilisateur !!!!
-$user = "bryan.r@dp203sept.onmicrosoft.com"
-$password = "Ssmallmxmx5!"
+$user = "address-email"
+$password = "mdp"
 
 # Sécurisation des mots de passe
 $securePassword = $password | ConvertTo-SecureString -AsPlainText -Force
@@ -33,12 +37,12 @@ $sqlScriptsPath = "..\sql"
 # User must sign in using az login
 # Write-Host "Sign into Azure using your credentials.."
 # az login
-az login -t $tenant -u $user -p $password
+az login -t $tenantId -u $user -p $password
 
 # Now sign in again for PowerShell resource management and select subscription
 # Write-Host "Now sign in again to allow this script to create resources..."
 # Connect-AzAccount
-Connect-AzAccount -Tenant $tenant -Credential $credentials
+Connect-AzAccount -Tenant $tenantId -Credential $credentials
 
 
 # Les comptes ne contiennent qu'une souscription donc normalement, on n'a plus besoin de ça.
