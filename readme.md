@@ -2,6 +2,74 @@
 
 Welcome to the course DP-203: Data Engineering on Azure. To support this course, we will need to make updates to the course content to keep it current with the Azure services used in the course.  We are publishing the lab instructions and lab files on GitHub to allow for open contributions between the course authors and MCTs to keep the content current with changes in the Azure platform.
 
+## Nouveau mode de fonctionnement
+
+### Installation des labs
+
+Le script pour l'installation des labs a été modifé. Il ne nécessite plus d'interaction lors de la création du lab.
+
+1. Création de l'utilisateur dans le Azure Active Directory choisi: on crée un utilisateur externe dans un Azure Active Directory que l'on a créé au préalable. Lors de cette étape, il est important de noter les mots de passe ainsi que le `tenantId` du Azure Active Directory. (Il est trouvable sur la page d'accueil du Azure Active Directory).
+2. Ajout des Azure Pass: Pour chaque utilisateur, on doit ajouter un Azure Pass. Cette manipulation se fait à la main.
+3. Installation des labs:
+
+Pour cette étape, il faut une machine sur laquelle Powershell est installé, ainsi que Azure CLI et des modules Powershell Azure (voir le document utilisé par Gaspard). Une fois la machine prête, il faut télécharger le contenu du repo Github modifié (cette étape est un peu longue car le repo est assez lourd). Pour l'instant le nouveau code est sur la branche documentation. Il faut donc changer de branche:
+
+```sh
+cd /
+mkdir dp-203
+git clone https://github.com/DataScientest/DP-203-Data-Engineer.git
+git checkout documentation
+```
+
+On se déplace au bon endroit dans le repo:
+
+```sh
+cd /dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation
+```
+
+On peut alors lancer le code en précisant le `tenantId`, le nom d'utilisateur et le mot de passe
+
+```sh
+# par exemple avec les arguments suivants:
+pwsh ./dp-203-setup.ps1 3670fdab-17f6-4743-b8f8-6ac0784204aa pauldechorgnat@dp203sept.onmicrosoft.com DataScientest123!
+
+```
+
+Le code va tourner pendant une heure. A noter que le mot de passe choisi pour les SQL Server est `Azure2022!`.
+Il est possible que le code termine par une erreur de credentials mais ce n'est pas un problème pour la suite.
+
+### Tests des labs
+
+Paul a créé des tests pour vérifier que les resources ont été correctement créées. Le code est disponible dans le [dossier suivant](Allfiles/00/artifacts/environment-setup/tests/test.py).
+
+On peut l'utiliser en faisant:
+
+```sh
+cd ../tests
+
+python3 test.py \
+-d \
+-t 3670fdab-17f6-4743-b8f8-6ac0784204aa \
+-u pauldechorgnat@dp203sept.onmicrosoft.com \
+-p DataScientest123!
+--path /dp-203/DP-203-Data-Engineer/Allfiles/wwi-02
+```
+
+- `t` est le `tenantId`
+- `u` est le username
+- `p` est le mot de passe
+- `--path` est le chemin absolu vers le dossier `wwi-02` du repo
+- `-d` permet d'imprimer les messages de debug
+
+Ce test permet de tester plusieurs choses:
+- vérifier que les ressources ont bien été créées
+- vérifier que les ressources ont bien le bon nom
+- vérifier que les ressources sont bien localisées au même endroit
+- vérifier que les ressources sont bien dans les bons groupes de ressource
+- vérifier que les fichiers dans le data lake sont bien les bons
+
+Ce code peut prendre un peu de temps à tourner puisqu'il doit récupérer tous les fichiers du Data Lake (environ 100 000).
+
 ## Lab overview
 
 The following is a summary of the lab objectives for each module:

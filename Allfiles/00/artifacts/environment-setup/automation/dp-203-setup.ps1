@@ -1,6 +1,6 @@
 Set-ExecutionPolicy Unrestricted
 			
-cd C:\dp-203\DP-203-Data-Engineer\Allfiles\00\artifacts\environment-setup\automation
+cd /dp-203\DP-203-Data-Engineer\Allfiles\00\artifacts\environment-setup\automation
 
 
 #### CONNEXION SANS INTERACTION ####
@@ -8,13 +8,13 @@ cd C:\dp-203\DP-203-Data-Engineer\Allfiles\00\artifacts\environment-setup\automa
 az logout
 Disconnect-AzAccount
 
-# Le TenantId ne change jamais
-$tenantId = "3670fdab-17f6-4743-b8f8-6ac0784204aa"
+# Le TenantId change à chaque changement de Azure Active Directory
+$tenantId = $args[0]
 
 # Credentials spécifiques à un utilisateur
 # à changer pour chaque utilisateur !!!!
-$user = "address-email"
-$password = "mdp"
+$user = $args[1]
+$password = $args[2]
 
 # Sécurisation des mots de passe
 $securePassword = $password | ConvertTo-SecureString -AsPlainText -Force
