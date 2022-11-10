@@ -1,0 +1,423 @@
+Importing CSV!!
+Reading the CSV... 
+Here is the data: 
+
+[32;1memail                                     password[0m
+[32;1m-----                                     --------[0m
+saber.zribi@dp203nov.onmicrosoft.com      T7jkaBgDX328
+abdellatif.aazmi@dp203nov.onmicrosoft.com Rh9ZjZx7E9n6
+
+Starting with The ID: saber.zribi@dp203nov.onmicrosoft.com, Name: T7jkaBgDX328 and Tenant ID: 79b1cadf-573c-4d97-95d0-00fb5675ff07
+
+[33;1mWARNING: The names of some imported commands from the module 'solliance-synapse-automation' include unapproved verbs that might make them less discoverable. To find the commands with unapproved verbs, run the Import-Module command again with the Verbose parameter. For a list of approved verbs, type Get-Verb.[0m
+[
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "79b1cadf-573c-4d97-95d0-00fb5675ff07",
+    "id": "4ca7bc21-be6b-4925-9029-73d37a2a5bf7",
+    "isDefault": true,
+    "managedByTenants": [],
+    "name": "Pass Azure - Sponsorship",
+    "state": "Enabled",
+    "tenantId": "79b1cadf-573c-4d97-95d0-00fb5675ff07",
+    "user": {
+      "name": "saber.zribi@dp203nov.onmicrosoft.com",
+      "type": "user"
+    }
+  }
+]
+[32;1mId                    : [0msebastien.s@dp203sept.onmicrosoft.com
+[32;1mType                  : [0mUser
+[32;1mTenants               : [0m{3670fdab-17f6-4743-b8f8-6ac0784204aa}
+[32;1mCredential            : [0m
+[32;1mTenantMap             : [0m{}
+[32;1mCertificateThumbprint : [0m
+[32;1mExtendedProperties    : [0m{[Subscriptions, b8a6e662-a78d-4c40-8e3a-a058613e02f7],
+                        [32;1m[0m [Tenants, 3670fdab-17f6-4743-b8f8-6ac0784204aa], [UseP
+                        [32;1m[0masswordAuth, true], [HomeAccountId, 5c723952-353a-4b12-
+                        [32;1m[0m9c9d-a4095520735f.3670fdab-17f6-4743-b8f8-6ac0784204aa]
+                        [32;1m[0m}
+
+
+[32;1mEnvironments : [0m{[AzureCloud, AzureCloud], [AzureChinaCloud, AzureChinaCloud], [
+               [32;1m[0mAzureUSGovernment, AzureUSGovernment]}
+[32;1mContext      : [0mMicrosoft.Azure.Commands.Profile.Models.Core.PSAzureContext
+
+User Name: saber.zribi@dp203nov.onmicrosoft.com
+User ID: f97f022b-23b4-4fd9-b780-c11f453b818c
+
+Registering resource providers...
+
+[32;1mProviderNamespace : [0mMicrosoft.Databricks
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{workspaces, accessConnectors, workspaces/virtualNetworkPee
+                    [32;1m[0mrings, workspaces/dbWorkspaces…}
+[32;1mLocations         : [0m{West US, East US 2, West Europe, East US…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.Synapse
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{workspaces, workspaces/bigDataPools, workspaces/sqlPools, 
+                    [32;1m[0mworkspaces/sqlDatabases…}
+[32;1mLocations         : [0m{West US 2, East US, North Europe, West Europe…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.Sql
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{operations, locations, locations/capabilities, locations/d
+                    [32;1m[0matabaseAzureAsyncOperation…}
+[32;1mLocations         : [0m{Australia Central, Australia East, Australia Southeast, Br
+                    [32;1m[0mazil South…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.DocumentDB
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{databaseAccounts, databaseAccountNames, operations, operat
+                    [32;1m[0mionResults…}
+[32;1mLocations         : [0m{West Central US, North Central US, Central US, Brazil Sout
+                    [32;1m[0mh…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.StreamAnalytics
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{streamingjobs, clusters, clusters/privateEndpoints, locati
+                    [32;1m[0mons…}
+[32;1mLocations         : [0m{Central US, West Europe, East US 2, North Europe…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.EventHub
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{namespaces, clusters, namespaces/authorizationrules, names
+                    [32;1m[0mpaces/networkrulesets…}
+[32;1mLocations         : [0m{Australia Central, Australia East, Australia Southeast, Br
+                    [32;1m[0mazil South…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.KeyVault
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{vaults, vaults/secrets, vaults/accessPolicies, operations…
+                    [32;1m[0m}
+[32;1mLocations         : [0m{North Central US, East US, North Europe, West Europe…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.Storage
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{storageAccounts/storageTaskAssignments, storageAccounts/en
+                    [32;1m[0mcryptionScopes, deletedAccounts, locations/deletedAccounts…
+                    [32;1m[0m}
+[32;1mLocations         : [0m{East US, East US 2, West US, West Europe…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.Compute
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{availabilitySets, virtualMachines, virtualMachines/extensi
+                    [32;1m[0mons, virtualMachineScaleSets…}
+[32;1mLocations         : [0m{East US, East US 2, West US, Central US…}
+[32;1mZoneMappings      : [0m
+
+Your randomly-generated suffix for Azure resources is dbnlgks
+Selecting a region for deployment...
+Try to create a SQL Database resource to test for capacity constraints
+True
+Selected region: northeurope
+Creating Azure resources. This may take some time...
+[31;1mNew-AzResourceGroupDeployment: [0m/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/dp-203-setup.ps1:185:1
+[36;1mLine |
+[36;1m 185 | [0m [36;1mNew-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName `[0m
+[36;1m     | [31;1m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[31;1m[36;1m     | [31;1m20:07:58 - The deployment '00-asa-workspace-core' failed with error(s).
+[36;1m     | [31;1mShowing 3 out of 3 error(s). Status Message: The Resource
+[36;1m     | [31;1m'Microsoft.EventHub/namespaces/eventhubdbnlgks' under resource group
+[36;1m     | [31;1m'data-engineering-synapse-dbnlgks' was not found. For more details
+[36;1m     | [31;1mplease go to https://aka.ms/ARMResourceNotFoundFix
+[36;1m     | [31;1m(Code:ResourceNotFound)  Status Message: Can not perform requested
+[36;1m     | [31;1moperation on nested resource. Parent resource 'adbworkspacedbnlgks' not
+[36;1m     | [31;1mfound. (Code:ParentResourceNotFound)  Status Message: The Resource
+[36;1m     | [31;1m'Microsoft.DocumentDB/databaseAccounts/asacosmosdbdbnlgks' under
+[36;1m     | [31;1mresource group 'data-engineering-synapse-dbnlgks' was not found. For
+[36;1m     | [31;1mmore details please go to https://aka.ms/ARMResourceNotFoundFix
+[36;1m     | [31;1m(Code:ResourceNotFound)  CorrelationId:
+[36;1m     | [31;1mfa27d6b8-364d-4cfc-ab5e-520b62de1f86
+[0m
+
+[32;1mResourceGroupName       : [0mdata-engineering-synapse-dbnlgks
+[32;1mOnErrorDeployment       : [0m
+[32;1mDeploymentName          : [0m00-asa-workspace-core
+[32;1mCorrelationId           : [0mfa27d6b8-364d-4cfc-ab5e-520b62de1f86
+[32;1mProvisioningState       : [0mFailed
+[32;1mTimestamp               : [0m11/08/2022 20:07:56
+[32;1mMode                    : [0mComplete
+[32;1mTemplateLink            : [0m
+[32;1mTemplateLinkString      : [0m
+[32;1mDeploymentDebugLogLevel : [0m
+[32;1mParameters              : [0m{[uniqueSuffix, 
+[32;1m                          [0mType        Value     
+[32;1m                          [0m----------  ----------
+[32;1m                          [0mString      dbnlgks   
+[32;1m                          [0m], [sqlAdministratorLoginPassword, 
+[32;1m                          [0mType        Value     
+[32;1m                          [0m----------  ----------
+[32;1m                          [0mString      Azure2022!
+[32;1m                          [0m]}
+[32;1mTags                    : [0m
+[32;1mParametersString        : [0m
+[32;1m                          [0mName                             Type                
+                          [32;1m[0m       Value     
+[32;1m                          [0m===============================  ====================
+                          [32;1m[0m=====  ==========
+[32;1m                          [0muniqueSuffix                     String              
+                          [32;1m[0m       "dbnlgks" 
+[32;1m                          [0msqlAdministratorLoginPassword    String              
+                          [32;1m[0m       "Azure2022!"
+[32;1m                          [0m
+[32;1mOutputs                 : [0m
+[32;1mOutputsString           : [0m
+
+Performing post-deployment configuration...
+Granting saber.zribi@dp203nov.onmicrosoft.com admin permissions...
+
+[32;1mid          : [0m6e4bf58a-b8e1-4cc3-bbf9-d73143322b78-f97f022b-23b4-4fd9-b780-c11f
+              [32;1m[0m453b818c
+[32;1mroleId      : [0m6e4bf58a-b8e1-4cc3-bbf9-d73143322b78
+[32;1mprincipalId : [0mf97f022b-23b4-4fd9-b780-c11f453b818c
+
+
+[32;1mid          : [0m7af0c69a-a548-47d6-aea3-d00e69bd83aa-f97f022b-23b4-4fd9-b780-c11f
+              [32;1m[0m453b818c
+[32;1mroleId      : [0m7af0c69a-a548-47d6-aea3-d00e69bd83aa
+[32;1mprincipalId : [0mf97f022b-23b4-4fd9-b780-c11f453b818c
+
+
+[32;1mid          : [0mc3a6d2f1-a26f-4810-9b0f-591308d5cbf1-f97f022b-23b4-4fd9-b780-c11f
+              [32;1m[0m453b818c
+[32;1mroleId      : [0mc3a6d2f1-a26f-4810-9b0f-591308d5cbf1
+[32;1mprincipalId : [0mf97f022b-23b4-4fd9-b780-c11f453b818c
+
+
+[32;1mRoleAssignmentName : [0m4cfdea2e-33a5-433a-9ea4-12e316af8c30
+[32;1mRoleAssignmentId   : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resour
+                     [32;1m[0mceGroups/data-engineering-synapse-dbnlgks/providers/Micros
+                     [32;1m[0moft.Storage/storageAccounts/asadatalakedbnlgks/providers/M
+                     [32;1m[0microsoft.Authorization/roleAssignments/4cfdea2e-33a5-433a-
+                     [32;1m[0m9ea4-12e316af8c30
+[32;1mScope              : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resour
+                     [32;1m[0mceGroups/data-engineering-synapse-dbnlgks/providers/Micros
+                     [32;1m[0moft.Storage/storageAccounts/asadatalakedbnlgks
+[32;1mDisplayName        : [0masaworkspacedbnlgks
+[32;1mSignInName         : [0m
+[32;1mRoleDefinitionName : [0mStorage Blob Data Owner
+[32;1mRoleDefinitionId   : [0mb7e6dc6d-f1e8-4753-8033-0f276bb0955b
+[32;1mObjectId           : [0m7c679ae5-4593-4105-90e5-6be14873beae
+[32;1mObjectType         : [0mServicePrincipal
+[32;1mCanDelegate        : [0mFalse
+[32;1mDescription        : [0m
+[32;1mConditionVersion   : [0m
+[32;1mCondition          : [0m
+
+
+[32;1mRoleAssignmentName : [0m44f0e7c8-56f2-4c83-9871-ecc79f0e1302
+[32;1mRoleAssignmentId   : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resour
+                     [32;1m[0mceGroups/data-engineering-synapse-dbnlgks/providers/Micros
+                     [32;1m[0moft.Storage/storageAccounts/asadatalakedbnlgks/providers/M
+                     [32;1m[0microsoft.Authorization/roleAssignments/44f0e7c8-56f2-4c83-
+                     [32;1m[0m9871-ecc79f0e1302
+[32;1mScope              : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resour
+                     [32;1m[0mceGroups/data-engineering-synapse-dbnlgks/providers/Micros
+                     [32;1m[0moft.Storage/storageAccounts/asadatalakedbnlgks
+[32;1mDisplayName        : [0mSaber Zribi
+[32;1mSignInName         : [0msaber.zribi@dp203nov.onmicrosoft.com
+[32;1mRoleDefinitionName : [0mStorage Blob Data Owner
+[32;1mRoleDefinitionId   : [0mb7e6dc6d-f1e8-4753-8033-0f276bb0955b
+[32;1mObjectId           : [0mf97f022b-23b4-4fd9-b780-c11f453b818c
+[32;1mObjectType         : [0mUser
+[32;1mCanDelegate        : [0mFalse
+[32;1mDescription        : [0m
+[32;1mConditionVersion   : [0m
+[32;1mCondition          : [0m
+
+Configuring services...
+
+[32;1mSecretValue : [0mSystem.Security.SecureString
+[32;1mAttributes  : [0mMicrosoft.Azure.Commands.KeyVault.Models.PSKeyVaultSecretAttribut
+              [32;1m[0mes
+[32;1mEnabled     : [0mTrue
+[32;1mExpires     : [0m
+[32;1mNotBefore   : [0m
+[32;1mCreated     : [0m11/08/2022 20:08:08
+[32;1mUpdated     : [0m11/08/2022 20:08:08
+[32;1mContentType : [0m
+[32;1mTags        : [0m
+[32;1mTagsTable   : [0m
+[32;1mVaultName   : [0masakeyvaultdbnlgks
+[32;1mName        : [0mSQL-USER-ASA
+[32;1mVersion     : [0m445305d3dc604677835d34b58e555bd2
+[32;1mId          : [0mhttps://asakeyvaultdbnlgks.vault.azure.net:443/secrets/SQL-USER-A
+              [32;1m[0mSA/445305d3dc604677835d34b58e555bd2
+
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-dbnlgks/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacedbnlgks/linkedservices/asakeyvaultdbnlgks
+[32;1mname       : [0masakeyvaultdbnlgks
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=AzureKeyVault; typeProperties=
+             [32;1m[0m}
+[32;1metag       : [0m6a00ee81-0000-0c00-0000-636ab72d0000
+
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-dbnlgks/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacedbnlgks/integrationruntimes/AzureIntegrationRun
+             [32;1m[0mtime01
+[32;1mname       : [0mAzureIntegrationRuntime01
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/integrationruntimes
+[32;1mproperties : [0m@{type=Managed; typeProperties=}
+[32;1metag       : [0m6a002582-0000-0c00-0000-636ab7370000
+
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-dbnlgks/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacedbnlgks/linkedservices/asadatalakedbnlgks
+[32;1mname       : [0masadatalakedbnlgks
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=AzureBlobFS; typeProperties=}
+[32;1metag       : [0m6a007582-0000-0c00-0000-636ab7400000
+
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-dbnlgks/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacedbnlgks/linkedservices/sqlpool01
+[32;1mname       : [0msqlpool01
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=AzureSqlDW; typeProperties=}
+[32;1metag       : [0m6a002683-0000-0c00-0000-636ab74d0000
+
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-dbnlgks/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacedbnlgks/linkedservices/asastoredbnlgks
+[32;1mname       : [0masastoredbnlgks
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=AzureBlobStorage; typeProperti
+             [32;1m[0mes=}
+[32;1metag       : [0m6a006d83-0000-0c00-0000-636ab75a0000
+
+
+# Values from the first setup script here
+$selectedSub = ""
+$suffix = "dbnlgks"
+$subscriptionId = "4ca7bc21-be6b-4925-9029-73d37a2a5bf7"
+$resourceGroupName = "data-engineering-synapse-dbnlgks"
+$workspaceName = "asaworkspacedbnlgks"
+$global:logindomain = "79b1cadf-573c-4d97-95d0-00fb5675ff07"
+$global:sqlEndpoint = "asaworkspacedbnlgks.sql.azuresynapse.net"
+$global:sqlUser = "asa.sql.admin"
+$global:synapseToken = ""
+$global:synapseSQLToken = ""
+$global:managementToken = ""
+$global:powerbiToken = ""
+$global:tokenTimes = [ordered]@{
+        Synapse = (Get-Date -Year 1)
+        SynapseSQL = (Get-Date -Year 1)
+        Management = (Get-Date -Year 1)
+        PowerBI = (Get-Date -Year 1)
+}
+
+Script1 Complete!
+Uploading data to Azure...
+[31;1mSet-Location: [0m/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/dp-203-setup.ps1:335:12
+[36;1mLine |
+[36;1m 335 | [0m         cd [36;1m$azCopyCommand[0m
+[36;1m     | [31;1m            ~~~~~~~~~~~~~~
+[31;1m[36;1m     | [31;1mCannot convert 'System.Object[]' to the type 'System.String' required by
+[36;1m     | [31;1mparameter 'Path'. Specified method is not supported.
+[0m
+[31;1mResolve-Path: [0m/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/dp-203-setup.ps1:369:18
+[36;1mLine |
+[36;1m 369 | [0m         $wwi02 = [36;1mResolve-Path "../../../../wwi-02"[0m
+[36;1m     | [31;1m                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[31;1m[36;1m     | [31;1mCannot find path '/home/ubuntu/dp-203/DP-203-Data-Engineer/wwi-02'
+[36;1m     | [31;1mbecause it does not exist.
+[0m
+[31;1m&: [0m/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/dp-203-setup.ps1:392:19
+[36;1mLine |
+[36;1m 392 | [0m                 & [36;1m$azCopyCommand[0m copy $source $destination --recursiv …
+[36;1m     | [31;1m                   ~~~~~~~~~~~~~~
+[31;1m[36;1m     | [31;1mThe module
+[36;1m     | [31;1m'/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.2 /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.1 ' could not be loaded. For more information, run 'Import-Module /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.2 /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.1 '.
+[0m
+[31;1m&: [0m/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/dp-203-setup.ps1:392:19
+[36;1mLine |
+[36;1m 392 | [0m                 & [36;1m$azCopyCommand[0m copy $source $destination --recursiv …
+[36;1m     | [31;1m                   ~~~~~~~~~~~~~~
+[31;1m[36;1m     | [31;1mThe module
+[36;1m     | [31;1m'/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.2 /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.1 ' could not be loaded. For more information, run 'Import-Module /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.2 /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.1 '.
+[0m
+[31;1m&: [0m/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/dp-203-setup.ps1:392:19
+[36;1mLine |
+[36;1m 392 | [0m                 & [36;1m$azCopyCommand[0m copy $source $destination --recursiv …
+[36;1m     | [31;1m                   ~~~~~~~~~~~~~~
+[31;1m[36;1m     | [31;1mThe module
+[36;1m     | [31;1m'/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.2 /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.1 ' could not be loaded. For more information, run 'Import-Module /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.2 /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.1 '.
+[0m
+[31;1m&: [0m/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/dp-203-setup.ps1:392:19
+[36;1mLine |
+[36;1m 392 | [0m                 & [36;1m$azCopyCommand[0m copy $source $destination --recursiv …
+[36;1m     | [31;1m                   ~~~~~~~~~~~~~~
+[31;1m[36;1m     | [31;1mThe module
+[36;1m     | [31;1m'/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.2 /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.1 ' could not be loaded. For more information, run 'Import-Module /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.2 /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.1 '.
+[0m
+[31;1m&: [0m/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/dp-203-setup.ps1:392:19
+[36;1mLine |
+[36;1m 392 | [0m                 & [36;1m$azCopyCommand[0m copy $source $destination --recursiv …
+[36;1m     | [31;1m                   ~~~~~~~~~~~~~~
+[31;1m[36;1m     | [31;1mThe module
+[36;1m     | [31;1m'/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.2 /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.1 ' could not be loaded. For more information, run 'Import-Module /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.2 /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.1 '.
+[0m
+[31;1m&: [0m/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/dp-203-setup.ps1:392:19
+[36;1mLine |
+[36;1m 392 | [0m                 & [36;1m$azCopyCommand[0m copy $source $destination --recursiv …
+[36;1m     | [31;1m                   ~~~~~~~~~~~~~~
+[31;1m[36;1m     | [31;1mThe module
+[36;1m     | [31;1m'/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.2 /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.1 ' could not be loaded. For more information, run 'Import-Module /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.2 /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.1 '.
+[0m
+[31;1m&: [0m/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/dp-203-setup.ps1:392:19
+[36;1mLine |
+[36;1m 392 | [0m                 & [36;1m$azCopyCommand[0m copy $source $destination --recursiv …
+[36;1m     | [31;1m                   ~~~~~~~~~~~~~~
+[31;1m[36;1m     | [31;1mThe module
+[36;1m     | [31;1m'/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.2 /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.1 ' could not be loaded. For more information, run 'Import-Module /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.2 /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.1 '.
+[0m
+[31;1m&: [0m/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/dp-203-setup.ps1:392:19
+[36;1mLine |
+[36;1m 392 | [0m                 & [36;1m$azCopyCommand[0m copy $source $destination --recursiv …
+[36;1m     | [31;1m                   ~~~~~~~~~~~~~~
+[31;1m[36;1m     | [31;1mThe module
+[36;1m     | [31;1m'/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.2 /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.1 ' could not be loaded. For more information, run 'Import-Module /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.2 /home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/azcopy_linux_amd64_10.16.1 '.
+[0m
+Creating SQL scripts...
+[31;1mGet-Content: [31;1mCannot find path
+'/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/templates/sql_sc
+ript.json' because it does not exist.
+[0m
+[31;1mInvalidOperation: [31;1mYou cannot call a method on a null-valued expression.
+[0m
+[31;1mConvertFrom-Json: [31;1mCannot bind argument to parameter 'InputObject' because it is null.
+[0m
+[31;1mGet-Content: [31;1mCannot find path
+'/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setu
+p/Column Level Security.sql' because it does not exist.
+[0m
+[31;1mInvalidOperation: [31;1mThe property 'query' cannot be found on this object. Verify that the property
+exists and can be set.
+[0m
+[31;1mException: [31;1m@{code=BadRequest; message=SqlScript Entity not valid}
+[0m

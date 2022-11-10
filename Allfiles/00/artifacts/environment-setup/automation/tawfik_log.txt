@@ -1,0 +1,604 @@
+
+[32;1mId                    : [0maysha.kadaikar@dp203nov.onmicrosoft.com
+[32;1mType                  : [0mUser
+[32;1mTenants               : [0m{79b1cadf-573c-4d97-95d0-00fb5675ff07}
+[32;1mCredential            : [0m
+[32;1mTenantMap             : [0m{}
+[32;1mCertificateThumbprint : [0m
+[32;1mExtendedProperties    : [0m{[UsePasswordAuth, true], [Subscriptions, 9f583a38-26e1
+                        [32;1m[0m-4bad-b20d-563e4f0e5604], [HomeAccountId, 71bb9d65-5f54
+                        [32;1m[0m-474d-b515-a2ca8639b043.79b1cadf-573c-4d97-95d0-00fb567
+                        [32;1m[0m5ff07], [Tenants, 79b1cadf-573c-4d97-95d0-00fb5675ff07]
+                        [32;1m[0m}
+
+[33;1mWARNING: The names of some imported commands from the module 'solliance-synapse-automation' include unapproved verbs that might make them less discoverable. To find the commands with unapproved verbs, run the Import-Module command again with the Verbose parameter. For a list of approved verbs, type Get-Verb.[0m
+[
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "79b1cadf-573c-4d97-95d0-00fb5675ff07",
+    "id": "566d4ffa-0984-4c6a-86f4-19ddd4e0d68c",
+    "isDefault": true,
+    "managedByTenants": [],
+    "name": "Pass Azure - Sponsorship",
+    "state": "Enabled",
+    "tenantId": "79b1cadf-573c-4d97-95d0-00fb5675ff07",
+    "user": {
+      "name": "tawfik.borji@dp203nov.onmicrosoft.com",
+      "type": "user"
+    }
+  }
+]
+
+[32;1mEnvironments : [0m{[AzureCloud, AzureCloud], [AzureChinaCloud, AzureChinaCloud], [
+               [32;1m[0mAzureUSGovernment, AzureUSGovernment]}
+[32;1mContext      : [0mMicrosoft.Azure.Commands.Profile.Models.Core.PSAzureContext
+
+User Name: tawfik.borji@dp203nov.onmicrosoft.com
+User ID: cd7f26d8-d78a-4eb4-9936-196f3f7b4015
+
+Registering resource providers...
+
+[32;1mProviderNamespace : [0mMicrosoft.Databricks
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{workspaces, accessConnectors, workspaces/virtualNetworkPee
+                    [32;1m[0mrings, workspaces/dbWorkspaces…}
+[32;1mLocations         : [0m{West US, East US 2, West Europe, East US…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.Synapse
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{workspaces, workspaces/bigDataPools, workspaces/sqlPools, 
+                    [32;1m[0mworkspaces/sqlDatabases…}
+[32;1mLocations         : [0m{West US 2, East US, North Europe, West Europe…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.Sql
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{operations, locations, locations/capabilities, locations/d
+                    [32;1m[0matabaseAzureAsyncOperation…}
+[32;1mLocations         : [0m{Australia Central, Australia East, Australia Southeast, Br
+                    [32;1m[0mazil South…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.DocumentDB
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{databaseAccounts, databaseAccountNames, operations, operat
+                    [32;1m[0mionResults…}
+[32;1mLocations         : [0m{West Central US, North Central US, Central US, Brazil Sout
+                    [32;1m[0mh…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.StreamAnalytics
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{streamingjobs, clusters, clusters/privateEndpoints, locati
+                    [32;1m[0mons…}
+[32;1mLocations         : [0m{Central US, West Europe, East US 2, North Europe…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.EventHub
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{namespaces, clusters, namespaces/authorizationrules, names
+                    [32;1m[0mpaces/networkrulesets…}
+[32;1mLocations         : [0m{Australia Central, Australia East, Australia Southeast, Br
+                    [32;1m[0mazil South…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.KeyVault
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{vaults, vaults/secrets, vaults/accessPolicies, operations…
+                    [32;1m[0m}
+[32;1mLocations         : [0m{North Central US, East US, North Europe, West Europe…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.Storage
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{storageAccounts/storageTaskAssignments, storageAccounts/en
+                    [32;1m[0mcryptionScopes, deletedAccounts, locations/deletedAccounts…
+                    [32;1m[0m}
+[32;1mLocations         : [0m{East US, East US 2, West US, West Europe…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.Compute
+[32;1mRegistrationState : [0mRegistering
+[32;1mResourceTypes     : [0m{availabilitySets, virtualMachines, virtualMachines/extensi
+                    [32;1m[0mons, virtualMachineScaleSets…}
+[32;1mLocations         : [0m{East US, East US 2, West US, Central US…}
+[32;1mZoneMappings      : [0m
+
+Your randomly-generated suffix for Azure resources is 5rgsejt
+Selecting a region for deployment...
+Try to create a SQL Database resource to test for capacity constraints
+Selected region: northeurope
+Creating Azure resources. This may take some time...
+
+[32;1mResourceGroupName       : [0mdata-engineering-synapse-5rgsejt
+[32;1mOnErrorDeployment       : [0m
+[32;1mDeploymentName          : [0m00-asa-workspace-core
+[32;1mCorrelationId           : [0m05103790-5e8c-461e-bce7-f2f78fce1b5f
+[32;1mProvisioningState       : [0mSucceeded
+[32;1mTimestamp               : [0m11/10/2022 09:57:52
+[32;1mMode                    : [0mComplete
+[32;1mTemplateLink            : [0m
+[32;1mTemplateLinkString      : [0m
+[32;1mDeploymentDebugLogLevel : [0m
+[32;1mParameters              : [0m{[uniqueSuffix, 
+[32;1m                          [0mType        Value     
+[32;1m                          [0m----------  ----------
+[32;1m                          [0mString      5rgsejt   
+[32;1m                          [0m], [sqlAdministratorLoginPassword, 
+[32;1m                          [0mType        Value     
+[32;1m                          [0m----------  ----------
+[32;1m                          [0mString      Azure2022!
+[32;1m                          [0m]}
+[32;1mTags                    : [0m
+[32;1mParametersString        : [0m
+[32;1m                          [0mName                             Type                
+                          [32;1m[0m       Value     
+[32;1m                          [0m===============================  ====================
+                          [32;1m[0m=====  ==========
+[32;1m                          [0muniqueSuffix                     String              
+                          [32;1m[0m       "5rgsejt" 
+[32;1m                          [0msqlAdministratorLoginPassword    String              
+                          [32;1m[0m       "Azure2022!"
+[32;1m                          [0m
+[32;1mOutputs                 : [0m{}
+[32;1mOutputsString           : [0m
+
+Performing post-deployment configuration...
+Granting tawfik.borji@dp203nov.onmicrosoft.com admin permissions...
+
+[32;1mid          : [0m6e4bf58a-b8e1-4cc3-bbf9-d73143322b78-cd7f26d8-d78a-4eb4-9936-196f
+              [32;1m[0m3f7b4015
+[32;1mroleId      : [0m6e4bf58a-b8e1-4cc3-bbf9-d73143322b78
+[32;1mprincipalId : [0mcd7f26d8-d78a-4eb4-9936-196f3f7b4015
+
+
+[32;1mid          : [0m7af0c69a-a548-47d6-aea3-d00e69bd83aa-cd7f26d8-d78a-4eb4-9936-196f
+              [32;1m[0m3f7b4015
+[32;1mroleId      : [0m7af0c69a-a548-47d6-aea3-d00e69bd83aa
+[32;1mprincipalId : [0mcd7f26d8-d78a-4eb4-9936-196f3f7b4015
+
+
+[32;1mid          : [0mc3a6d2f1-a26f-4810-9b0f-591308d5cbf1-cd7f26d8-d78a-4eb4-9936-196f
+              [32;1m[0m3f7b4015
+[32;1mroleId      : [0mc3a6d2f1-a26f-4810-9b0f-591308d5cbf1
+[32;1mprincipalId : [0mcd7f26d8-d78a-4eb4-9936-196f3f7b4015
+
+
+[32;1mRoleAssignmentName : [0m6b48339c-6d99-43a8-b50e-122070e902c4
+[32;1mRoleAssignmentId   : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resour
+                     [32;1m[0mceGroups/data-engineering-synapse-5rgsejt/providers/Micros
+                     [32;1m[0moft.Storage/storageAccounts/asadatalake5rgsejt/providers/M
+                     [32;1m[0microsoft.Authorization/roleAssignments/6b48339c-6d99-43a8-
+                     [32;1m[0mb50e-122070e902c4
+[32;1mScope              : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resour
+                     [32;1m[0mceGroups/data-engineering-synapse-5rgsejt/providers/Micros
+                     [32;1m[0moft.Storage/storageAccounts/asadatalake5rgsejt
+[32;1mDisplayName        : [0masaworkspace5rgsejt
+[32;1mSignInName         : [0m
+[32;1mRoleDefinitionName : [0mStorage Blob Data Owner
+[32;1mRoleDefinitionId   : [0mb7e6dc6d-f1e8-4753-8033-0f276bb0955b
+[32;1mObjectId           : [0mb62af1b1-faa1-41d1-9a21-c15da91ca41e
+[32;1mObjectType         : [0mServicePrincipal
+[32;1mCanDelegate        : [0mFalse
+[32;1mDescription        : [0m
+[32;1mConditionVersion   : [0m
+[32;1mCondition          : [0m
+
+
+[32;1mRoleAssignmentName : [0m0139b63c-b4ee-43da-bcf1-9825280259e1
+[32;1mRoleAssignmentId   : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resour
+                     [32;1m[0mceGroups/data-engineering-synapse-5rgsejt/providers/Micros
+                     [32;1m[0moft.Storage/storageAccounts/asadatalake5rgsejt/providers/M
+                     [32;1m[0microsoft.Authorization/roleAssignments/0139b63c-b4ee-43da-
+                     [32;1m[0mbcf1-9825280259e1
+[32;1mScope              : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resour
+                     [32;1m[0mceGroups/data-engineering-synapse-5rgsejt/providers/Micros
+                     [32;1m[0moft.Storage/storageAccounts/asadatalake5rgsejt
+[32;1mDisplayName        : [0mTawfik Borji
+[32;1mSignInName         : [0mtawfik.borji@dp203nov.onmicrosoft.com
+[32;1mRoleDefinitionName : [0mStorage Blob Data Owner
+[32;1mRoleDefinitionId   : [0mb7e6dc6d-f1e8-4753-8033-0f276bb0955b
+[32;1mObjectId           : [0mcd7f26d8-d78a-4eb4-9936-196f3f7b4015
+[32;1mObjectType         : [0mUser
+[32;1mCanDelegate        : [0mFalse
+[32;1mDescription        : [0m
+[32;1mConditionVersion   : [0m
+[32;1mCondition          : [0m
+
+Configuring services...
+
+[32;1mSecretValue : [0mSystem.Security.SecureString
+[32;1mAttributes  : [0mMicrosoft.Azure.Commands.KeyVault.Models.PSKeyVaultSecretAttribut
+              [32;1m[0mes
+[32;1mEnabled     : [0mTrue
+[32;1mExpires     : [0m
+[32;1mNotBefore   : [0m
+[32;1mCreated     : [0m11/10/2022 09:58:09
+[32;1mUpdated     : [0m11/10/2022 09:58:09
+[32;1mContentType : [0m
+[32;1mTags        : [0m
+[32;1mTagsTable   : [0m
+[32;1mVaultName   : [0masakeyvault5rgsejt
+[32;1mName        : [0mSQL-USER-ASA
+[32;1mVersion     : [0m7cc927e5fb264b37a71f80ca951fc9a3
+[32;1mId          : [0mhttps://asakeyvault5rgsejt.vault.azure.net:443/secrets/SQL-USER-A
+              [32;1m[0mSA/7cc927e5fb264b37a71f80ca951fc9a3
+
+
+[32;1mid         : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resourceGroups
+             [32;1m[0m/data-engineering-synapse-5rgsejt/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspace5rgsejt/linkedservices/asakeyvault5rgsejt
+[32;1mname       : [0masakeyvault5rgsejt
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=AzureKeyVault; typeProperties=
+             [32;1m[0m}
+[32;1metag       : [0mb50007f7-0000-0c00-0000-636ccb370000
+
+
+[32;1mid         : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resourceGroups
+             [32;1m[0m/data-engineering-synapse-5rgsejt/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspace5rgsejt/integrationruntimes/AzureIntegrationRun
+             [32;1m[0mtime01
+[32;1mname       : [0mAzureIntegrationRuntime01
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/integrationruntimes
+[32;1mproperties : [0m@{type=Managed; typeProperties=}
+[32;1metag       : [0mb5008df7-0000-0c00-0000-636ccb410000
+
+
+[32;1mid         : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resourceGroups
+             [32;1m[0m/data-engineering-synapse-5rgsejt/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspace5rgsejt/linkedservices/asadatalake5rgsejt
+[32;1mname       : [0masadatalake5rgsejt
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=AzureBlobFS; typeProperties=}
+[32;1metag       : [0mb50021f8-0000-0c00-0000-636ccb4b0000
+
+
+[32;1mid         : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resourceGroups
+             [32;1m[0m/data-engineering-synapse-5rgsejt/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspace5rgsejt/linkedservices/sqlpool01
+[32;1mname       : [0msqlpool01
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=AzureSqlDW; typeProperties=}
+[32;1metag       : [0mb5006cf8-0000-0c00-0000-636ccb530000
+
+
+[32;1mid         : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resourceGroups
+             [32;1m[0m/data-engineering-synapse-5rgsejt/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspace5rgsejt/linkedservices/asastore5rgsejt
+[32;1mname       : [0masastore5rgsejt
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=AzureBlobStorage; typeProperti
+             [32;1m[0mes=}
+[32;1metag       : [0mb50049f9-0000-0c00-0000-636ccb620000
+
+
+# Values from the first setup script here
+$selectedSub = ""
+$suffix = "5rgsejt"
+$subscriptionId = "566d4ffa-0984-4c6a-86f4-19ddd4e0d68c"
+$resourceGroupName = "data-engineering-synapse-5rgsejt"
+$workspaceName = "asaworkspace5rgsejt"
+$global:logindomain = "79b1cadf-573c-4d97-95d0-00fb5675ff07"
+$global:sqlEndpoint = "asaworkspace5rgsejt.sql.azuresynapse.net"
+$global:sqlUser = "asa.sql.admin"
+$global:synapseToken = ""
+$global:synapseSQLToken = ""
+$global:managementToken = ""
+$global:powerbiToken = ""
+$global:tokenTimes = [ordered]@{
+        Synapse = (Get-Date -Year 1)
+        SynapseSQL = (Get-Date -Year 1)
+        Management = (Get-Date -Year 1)
+        PowerBI = (Get-Date -Year 1)
+}
+
+Script1 Complete!
+Uploading data to Azure...
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job ac5d2168-aa5c-9e48-4134-25429803ca55 has started
+Log file is located at: /home/ubuntu/.azcopy/ac5d2168-aa5c-9e48-4134-25429803ca55.log
+
+100.0 %, 2 Done, 0 Failed, 0 Pending, 0 Skipped, 2 Total, 2-sec Throughput (Mb/s): 0.0686
+
+
+Job ac5d2168-aa5c-9e48-4134-25429803ca55 summary
+Elapsed Time (Minutes): 0.0334
+Number of File Transfers: 2
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 2
+Number of Transfers Completed: 2
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 17156
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job 344fe33e-938c-2849-5156-09f06b6d2aa1 has started
+Log file is located at: /home/ubuntu/.azcopy/344fe33e-938c-2849-5156-09f06b6d2aa1.log
+
+3.5 %, 0 Done, 0 Failed, 3 Pending, 0 Skipped, 3 Total, 2-sec Throughput (Mb/s): 496.2341100.0 %, 3 Done, 0 Failed, 0 Pending, 0 Skipped, 3 Total, 2-sec Throughput (Mb/s): 318.2378
+
+
+Job 344fe33e-938c-2849-5156-09f06b6d2aa1 summary
+Elapsed Time (Minutes): 0.0668
+Number of File Transfers: 3
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 3
+Number of Transfers Completed: 3
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 204215991
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job 6c018e86-b9bd-7f44-6323-accebebd1623 has started
+Log file is located at: /home/ubuntu/.azcopy/6c018e86-b9bd-7f44-6323-accebebd1623.log
+
+100.0 %, 41 Done, 0 Failed, 0 Pending, 0 Skipped, 41 Total, 2-sec Throughput (Mb/s): 145.9551
+
+
+Job 6c018e86-b9bd-7f44-6323-accebebd1623 summary
+Elapsed Time (Minutes): 0.0334
+Number of File Transfers: 41
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 41
+Number of Transfers Completed: 41
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 36518735
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job 3a8abe1c-7290-5746-6230-53db80695905 has started
+Log file is located at: /home/ubuntu/.azcopy/3a8abe1c-7290-5746-6230-53db80695905.log
+
+100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 367.7294
+
+
+Job 3a8abe1c-7290-5746-6230-53db80695905 summary
+Elapsed Time (Minutes): 0.0334
+Number of File Transfers: 1
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 1
+Number of Transfers Completed: 1
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 92003750
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job c40ce556-4346-5c47-70ce-a5da8c98fae3 has started
+Log file is located at: /home/ubuntu/.azcopy/c40ce556-4346-5c47-70ce-a5da8c98fae3.log
+
+100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0389
+
+
+Job c40ce556-4346-5c47-70ce-a5da8c98fae3 summary
+Elapsed Time (Minutes): 0.0333
+Number of File Transfers: 1
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 1
+Number of Transfers Completed: 1
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 9733
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job 10717008-7aa0-b44c-4291-5a6d79ef0029 has started
+Log file is located at: /home/ubuntu/.azcopy/10717008-7aa0-b44c-4291-5a6d79ef0029.log
+
+100.0 %, 5 Done, 0 Failed, 0 Pending, 0 Skipped, 5 Total, 2-sec Throughput (Mb/s): 543.0777
+
+
+Job 10717008-7aa0-b44c-4291-5a6d79ef0029 summary
+Elapsed Time (Minutes): 0.0334
+Number of File Transfers: 5
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 5
+Number of Transfers Completed: 5
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 135879713
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job 5af2ad90-554d-2343-46df-455cebf533e6 has started
+Log file is located at: /home/ubuntu/.azcopy/5af2ad90-554d-2343-46df-455cebf533e6.log
+
+100.0 %, 3 Done, 0 Failed, 0 Pending, 0 Skipped, 3 Total, 2-sec Throughput (Mb/s): 173.3588
+
+
+Job 5af2ad90-554d-2343-46df-455cebf533e6 summary
+Elapsed Time (Minutes): 0.0334
+Number of File Transfers: 3
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 3
+Number of Transfers Completed: 3
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 43364680
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job 3b8c8c97-9284-5a4f-6b94-c368f5788262 has started
+Log file is located at: /home/ubuntu/.azcopy/3b8c8c97-9284-5a4f-6b94-c368f5788262.log
+
+0.8 %, 288 Done, 0 Failed, 39712 Pending, 0 Skipped, 40000 Total (scanning...), 2-sec Throughput (Mb/s): 0.76650.8 %, 673 Done, 0 Failed, 89327 Pending, 0 Skipped, 90000 Total (scanning...), 2-sec Throughput (Mb/s): 0.88891.8 %, 1838 Done, 0 Failed, 98162 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.8057            3.0 %, 3067 Done, 0 Failed, 96933 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.86464.3 %, 4281 Done, 0 Failed, 95719 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.98935.5 %, 5491 Done, 0 Failed, 94509 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.97976.6 %, 6618 Done, 0 Failed, 93382 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.75667.7 %, 7641 Done, 0 Failed, 92359 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.45049.0 %, 9009 Done, 0 Failed, 90991 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 3.227711.0 %, 11023 Done, 0 Failed, 88977 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.834712.9 %, 12904 Done, 0 Failed, 87096 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.556315.0 %, 14968 Done, 0 Failed, 85032 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.994917.1 %, 17117 Done, 0 Failed, 82883 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.297119.2 %, 19178 Done, 0 Failed, 80822 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.972221.2 %, 21174 Done, 0 Failed, 78826 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.768723.2 %, 23227 Done, 0 Failed, 76773 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.961425.4 %, 25403 Done, 0 Failed, 74597 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.288127.6 %, 27574 Done, 0 Failed, 72426 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.285529.7 %, 29646 Done, 0 Failed, 70354 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.026631.5 %, 31462 Done, 0 Failed, 68538 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.469733.5 %, 33490 Done, 0 Failed, 66510 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.849435.6 %, 35627 Done, 0 Failed, 64373 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.176837.6 %, 37591 Done, 0 Failed, 62409 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.784639.7 %, 39637 Done, 0 Failed, 60363 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.017541.8 %, 41730 Done, 0 Failed, 58270 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.102743.8 %, 43714 Done, 0 Failed, 56286 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.760945.9 %, 45809 Done, 0 Failed, 54191 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.044 48.1 %, 47999 Done, 0 Failed, 52001 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.336350.2 %, 50107 Done, 0 Failed, 49893 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.068952.2 %, 52110 Done, 0 Failed, 47890 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.957554.2 %, 54158 Done, 0 Failed, 45842 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.923 56.4 %, 56344 Done, 0 Failed, 43656 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.260658.6 %, 58489 Done, 0 Failed, 41511 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.239760.6 %, 60497 Done, 0 Failed, 39503 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.809362.7 %, 62630 Done, 0 Failed, 37370 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.117364.9 %, 64828 Done, 0 Failed, 35172 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.271466.9 %, 66919 Done, 0 Failed, 33081 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.997669.0 %, 68987 Done, 0 Failed, 31013 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.085271.1 %, 71049 Done, 0 Failed, 28951 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.107273.2 %, 73141 Done, 0 Failed, 26859 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.048475.4 %, 75309 Done, 0 Failed, 24691 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.218177.5 %, 77410 Done, 0 Failed, 22590 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.061779.6 %, 79472 Done, 0 Failed, 20528 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.071181.6 %, 81509 Done, 0 Failed, 18491 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.970483.8 %, 83667 Done, 0 Failed, 16333 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.212 85.9 %, 85809 Done, 0 Failed, 14191 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.16687.9 %, 87858 Done, 0 Failed, 12142 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.890990.1 %, 90015 Done, 0 Failed, 9985 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.2197 92.1 %, 92086 Done, 0 Failed, 7914 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.010394.2 %, 94147 Done, 0 Failed, 5853 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 4.941 96.3 %, 96220 Done, 0 Failed, 3780 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.052598.4 %, 98310 Done, 0 Failed, 1690 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 5.0641100.0 %, 100000 Done, 0 Failed, 0 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 3.9059 
+
+
+Job 3b8c8c97-9284-5a4f-6b94-c368f5788262 summary
+Elapsed Time (Minutes): 1.7699
+Number of File Transfers: 100000
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 100000
+Number of Transfers Completed: 100000
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 60540367
+Final Job Status: Completed
+
+Creating SQL scripts...
+
+[32;1mid         : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resourceGroups
+             [32;1m[0m/data-engineering-synapse-5rgsejt/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspace5rgsejt/sqlscripts/Column Level Security
+[32;1mname       : [0mColumn Level Security
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/sqlscripts
+[32;1mproperties : [0m@{content=; type=SqlQuery}
+[32;1metag       : [0mb6004801-0000-0c00-0000-636ccbec0000
+
+
+[32;1mid         : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resourceGroups
+             [32;1m[0m/data-engineering-synapse-5rgsejt/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspace5rgsejt/sqlscripts/Dynamic Data Masking
+[32;1mname       : [0mDynamic Data Masking
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/sqlscripts
+[32;1mproperties : [0m@{content=; type=SqlQuery}
+[32;1metag       : [0mb600fb01-0000-0c00-0000-636ccbf50000
+
+
+[32;1mid         : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resourceGroups
+             [32;1m[0m/data-engineering-synapse-5rgsejt/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspace5rgsejt/sqlscripts/Row Level Security
+[32;1mname       : [0mRow Level Security
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/sqlscripts
+[32;1mproperties : [0m@{content=; type=SqlQuery}
+[32;1metag       : [0mb600b602-0000-0c00-0000-636ccbfe0000
+
+
+[32;1mid         : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resourceGroups
+             [32;1m[0m/data-engineering-synapse-5rgsejt/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspace5rgsejt/sqlscripts/Data Warehouse Optimization
+[32;1mname       : [0mData Warehouse Optimization
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/sqlscripts
+[32;1mproperties : [0m@{content=; type=SqlQuery}
+[32;1metag       : [0mb6003d03-0000-0c00-0000-636ccc080000
+
+
+# Values from the Second setup script here
+$dataLakeStorageAccountKey = "sNlDtGI6bS8T6/HXN1jlujDkZbVsf+qVfgmbmOkB+kekX9HoxHzdUckr4X2/HEbYTT+fODW/9Ov++AStVF+ylQ=="
+$dataLakeAccountName = "asadatalake5rgsejt"
+
+Script2 Complete!
+Loading Cosmos DB...
+
+[32;1mName     : [0mOnlineUserProfile01
+[32;1mId       : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resourceGroups/d
+           [32;1m[0mata-engineering-synapse-5rgsejt/providers/Microsoft.DocumentDB/datab
+           [32;1m[0maseAccounts/asacosmosdb5rgsejt/sqlDatabases/CustomerProfile/containe
+           [32;1m[0mrs/OnlineUserProfile01
+[32;1mLocation : [0m
+[32;1mTags     : [0m
+[32;1mResource : [0mMicrosoft.Azure.Commands.CosmosDB.Models.PSSqlContainerGetProperties
+           [32;1m[0mResource
+
+
+[32;1mid         : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resourceGroups
+             [32;1m[0m/data-engineering-synapse-5rgsejt/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspace5rgsejt/datasets/wwi02_online_user_profiles_01_
+             [32;1m[0madal
+[32;1mname       : [0mwwi02_online_user_profiles_01_adal
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/datasets
+[32;1mproperties : [0m@{linkedServiceName=; annotations=System.Object[]; type=Json; type
+             [32;1m[0mProperties=; schema=}
+[32;1metag       : [0mb6009406-0000-0c00-0000-636ccc340000
+
+
+[32;1mid         : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resourceGroups
+             [32;1m[0m/data-engineering-synapse-5rgsejt/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspace5rgsejt/linkedservices/asacosmosdb5rgsejt
+[32;1mname       : [0masacosmosdb5rgsejt
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=CosmosDb; typeProperties=}
+[32;1metag       : [0mb600b007-0000-0c00-0000-636ccc400000
+
+
+[32;1mid         : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resourceGroups
+             [32;1m[0m/data-engineering-synapse-5rgsejt/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspace5rgsejt/datasets/customer_profile_cosmosdb
+[32;1mname       : [0mcustomer_profile_cosmosdb
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/datasets
+[32;1mproperties : [0m@{linkedServiceName=; annotations=System.Object[]; type=CosmosDbSq
+             [32;1m[0mlApiCollection; schema=; typeProperties=}
+[32;1metag       : [0mb600a208-0000-0c00-0000-636ccc490000
+
+Running pipeline...
+
+[32;1mid         : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resourceGroups
+             [32;1m[0m/data-engineering-synapse-5rgsejt/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspace5rgsejt/pipelines/Setup - Import User Profile D
+             [32;1m[0mata into Cosmos DB
+[32;1mname       : [0mSetup - Import User Profile Data into Cosmos DB
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/pipelines
+[32;1mproperties : [0m@{description=Copy user profile data from Azure Storage to Azure C
+             [32;1m[0mosmos DB.; activities=System.Object[]; annotations=System.Object[]
+             [32;1m[0m; lastPublishTime=11/10/2022 10:02:58}
+[32;1metag       : [0mb6008b09-0000-0c00-0000-636ccc520000
+
+
+[32;1mid                  : [0m/SUBSCRIPTIONS/566D4FFA-0984-4C6A-86F4-19DDD4E0D68C/RESOU
+                      [32;1m[0mRCEGROUPS/DATA-ENGINEERING-SYNAPSE-5RGSEJT/PROVIDERS/MICR
+                      [32;1m[0mOSOFT.SYNAPSE/WORKSPACES/ASAWORKSPACE5RGSEJT/pipelineruns
+                      [32;1m[0m/43479825-c000-4f14-a8a3-c2af62124cf6
+[32;1mrunId               : [0m43479825-c000-4f14-a8a3-c2af62124cf6
+[32;1mdebugRunId          : [0m
+[32;1mrunGroupId          : [0m43479825-c000-4f14-a8a3-c2af62124cf6
+[32;1mpipelineName        : [0mSetup - Import User Profile Data into Cosmos DB
+[32;1mparameters          : [0m
+[32;1minvokedBy           : [0m@{id=fe0a4e542aa144059a4f226f936b43d1; name=Manual; invok
+                      [32;1m[0medByType=Manual}
+[32;1mrunStart            : [0m11/10/2022 10:03:08
+[32;1mrunEnd              : [0m11/10/2022 10:40:46
+[32;1mdurationInMs        : [0m2258516
+[32;1mstatus              : [0mSucceeded
+[32;1mmessage             : [0m
+[32;1mpipelineReturnValue : [0m
+[32;1mlastUpdated         : [0m11/10/2022 10:40:46
+[32;1mannotations         : [0m{}
+[32;1mrunDimension        : [0m
+[32;1misLatest            : [0mTrue
+
+
+
+
+
+
+[32;1mName     : [0mOnlineUserProfile01
+[32;1mId       : [0m/subscriptions/566d4ffa-0984-4c6a-86f4-19ddd4e0d68c/resourceGroups/d
+           [32;1m[0mata-engineering-synapse-5rgsejt/providers/Microsoft.DocumentDB/datab
+           [32;1m[0maseAccounts/asacosmosdb5rgsejt/sqlDatabases/CustomerProfile/containe
+           [32;1m[0mrs/OnlineUserProfile01
+[32;1mLocation : [0m
+[32;1mTags     : [0m
+[32;1mResource : [0mMicrosoft.Azure.Commands.CosmosDB.Models.PSSqlContainerGetProperties
+           [32;1m[0mResource
+
+Setup complete!
+

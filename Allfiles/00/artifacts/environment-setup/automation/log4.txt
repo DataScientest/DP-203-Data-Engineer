@@ -1,0 +1,633 @@
+Importing CSV!!
+Reading the CSV... 
+Here is the data: 
+
+[32;1memail                                     password[0m
+[32;1m-----                                     --------[0m
+saber.zribi@dp203nov.onmicrosoft.com      T7jkaBgDX328
+abdellatif.aazmi@dp203nov.onmicrosoft.com Rh9ZjZx7E9n6
+
+Starting with The ID: saber.zribi@dp203nov.onmicrosoft.com, Name: T7jkaBgDX328 and Tenant ID: 79b1cadf-573c-4d97-95d0-00fb5675ff07
+
+[33;1mWARNING: The names of some imported commands from the module 'solliance-synapse-automation' include unapproved verbs that might make them less discoverable. To find the commands with unapproved verbs, run the Import-Module command again with the Verbose parameter. For a list of approved verbs, type Get-Verb.[0m
+[
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "79b1cadf-573c-4d97-95d0-00fb5675ff07",
+    "id": "4ca7bc21-be6b-4925-9029-73d37a2a5bf7",
+    "isDefault": true,
+    "managedByTenants": [],
+    "name": "Pass Azure - Sponsorship",
+    "state": "Enabled",
+    "tenantId": "79b1cadf-573c-4d97-95d0-00fb5675ff07",
+    "user": {
+      "name": "saber.zribi@dp203nov.onmicrosoft.com",
+      "type": "user"
+    }
+  }
+]
+[32;1mId                    : [0mabdellatif.aazmi@dp203nov.onmicrosoft.com
+[32;1mType                  : [0mUser
+[32;1mTenants               : [0m{79b1cadf-573c-4d97-95d0-00fb5675ff07}
+[32;1mCredential            : [0m
+[32;1mTenantMap             : [0m{}
+[32;1mCertificateThumbprint : [0m
+[32;1mExtendedProperties    : [0m{[Subscriptions, 0ea186b1-eed3-4082-8974-39d2aecadd8a],
+                        [32;1m[0m [UsePasswordAuth, true], [HomeAccountId, 875c4a04-f3ca
+                        [32;1m[0m-4ed1-8833-5db2ac373e5b.79b1cadf-573c-4d97-95d0-00fb567
+                        [32;1m[0m5ff07], [Tenants, 79b1cadf-573c-4d97-95d0-00fb5675ff07]
+                        [32;1m[0m}
+
+
+[32;1mEnvironments : [0m{[AzureUSGovernment, AzureUSGovernment], [AzureChinaCloud, Azure
+               [32;1m[0mChinaCloud], [AzureCloud, AzureCloud]}
+[32;1mContext      : [0mMicrosoft.Azure.Commands.Profile.Models.Core.PSAzureContext
+
+User Name: saber.zribi@dp203nov.onmicrosoft.com
+User ID: f97f022b-23b4-4fd9-b780-c11f453b818c
+
+Registering resource providers...
+
+[32;1mProviderNamespace : [0mMicrosoft.Databricks
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{workspaces, accessConnectors, workspaces/virtualNetworkPee
+                    [32;1m[0mrings, workspaces/dbWorkspaces…}
+[32;1mLocations         : [0m{West US, East US 2, West Europe, East US…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.Synapse
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{workspaces, workspaces/bigDataPools, workspaces/sqlPools, 
+                    [32;1m[0mworkspaces/sqlDatabases…}
+[32;1mLocations         : [0m{West US 2, East US, North Europe, West Europe…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.Sql
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{operations, locations, locations/capabilities, locations/d
+                    [32;1m[0matabaseAzureAsyncOperation…}
+[32;1mLocations         : [0m{Australia Central, Australia East, Australia Southeast, Br
+                    [32;1m[0mazil South…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.DocumentDB
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{databaseAccounts, databaseAccountNames, operations, operat
+                    [32;1m[0mionResults…}
+[32;1mLocations         : [0m{West Central US, North Central US, Central US, Brazil Sout
+                    [32;1m[0mh…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.StreamAnalytics
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{streamingjobs, clusters, clusters/privateEndpoints, locati
+                    [32;1m[0mons…}
+[32;1mLocations         : [0m{Central US, West Europe, East US 2, North Europe…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.EventHub
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{namespaces, clusters, namespaces/authorizationrules, names
+                    [32;1m[0mpaces/networkrulesets…}
+[32;1mLocations         : [0m{Australia Central, Australia East, Australia Southeast, Br
+                    [32;1m[0mazil South…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.KeyVault
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{vaults, vaults/secrets, vaults/accessPolicies, operations…
+                    [32;1m[0m}
+[32;1mLocations         : [0m{North Central US, East US, North Europe, West Europe…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.Storage
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{storageAccounts/storageTaskAssignments, storageAccounts/en
+                    [32;1m[0mcryptionScopes, deletedAccounts, locations/deletedAccounts…
+                    [32;1m[0m}
+[32;1mLocations         : [0m{East US, East US 2, West US, West Europe…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.Compute
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{availabilitySets, virtualMachines, virtualMachines/extensi
+                    [32;1m[0mons, virtualMachineScaleSets…}
+[32;1mLocations         : [0m{East US, East US 2, West US, Central US…}
+[32;1mZoneMappings      : [0m
+
+Your randomly-generated suffix for Azure resources is a4xhlck
+Selecting a region for deployment...
+Try to create a SQL Database resource to test for capacity constraints
+Selected region: westeurope
+Creating Azure resources. This may take some time...
+[31;1mNew-AzResourceGroupDeployment: [0m/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setup/automation/dp-203-setup.ps1:185:1
+[36;1mLine |
+[36;1m 185 | [0m [36;1mNew-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName `[0m
+[36;1m     | [31;1m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[31;1m[36;1m     | [31;1m13:41:24 - The deployment '00-asa-workspace-core' failed with error(s).
+[36;1m     | [31;1mShowing 1 out of 1 error(s). Status Message:
+[36;1m     | [31;1m<Error><Code>409</Code><Detail>
+[36;1m     | [31;1mTrackingId:c2eb6efc-0d09-41f1-8275-40af1aad2ab8_G38,
+[36;1m     | [31;1mSystemTracker:eventhuba4xhlck.servicebus.windows.net:$tenants/eventhuba4xhlck, Timestamp:2022-11-09T13:36:29</Detail></Error> (Code:MessagingGatewayConflict)  CorrelationId: d0371256-0583-4ad0-809c-b8fd2949df26
+[0m
+
+[32;1mResourceGroupName       : [0mdata-engineering-synapse-a4xhlck
+[32;1mOnErrorDeployment       : [0m
+[32;1mDeploymentName          : [0m00-asa-workspace-core
+[32;1mCorrelationId           : [0md0371256-0583-4ad0-809c-b8fd2949df26
+[32;1mProvisioningState       : [0mFailed
+[32;1mTimestamp               : [0m11/09/2022 13:41:19
+[32;1mMode                    : [0mComplete
+[32;1mTemplateLink            : [0m
+[32;1mTemplateLinkString      : [0m
+[32;1mDeploymentDebugLogLevel : [0m
+[32;1mParameters              : [0m{[uniqueSuffix, 
+[32;1m                          [0mType        Value     
+[32;1m                          [0m----------  ----------
+[32;1m                          [0mString      a4xhlck   
+[32;1m                          [0m], [sqlAdministratorLoginPassword, 
+[32;1m                          [0mType        Value     
+[32;1m                          [0m----------  ----------
+[32;1m                          [0mString      Azure2022!
+[32;1m                          [0m]}
+[32;1mTags                    : [0m
+[32;1mParametersString        : [0m
+[32;1m                          [0mName                             Type                
+                          [32;1m[0m       Value     
+[32;1m                          [0m===============================  ====================
+                          [32;1m[0m=====  ==========
+[32;1m                          [0muniqueSuffix                     String              
+                          [32;1m[0m       "a4xhlck" 
+[32;1m                          [0msqlAdministratorLoginPassword    String              
+                          [32;1m[0m       "Azure2022!"
+[32;1m                          [0m
+[32;1mOutputs                 : [0m
+[32;1mOutputsString           : [0m
+
+Performing post-deployment configuration...
+Granting saber.zribi@dp203nov.onmicrosoft.com admin permissions...
+
+[32;1mid          : [0m6e4bf58a-b8e1-4cc3-bbf9-d73143322b78-f97f022b-23b4-4fd9-b780-c11f
+              [32;1m[0m453b818c
+[32;1mroleId      : [0m6e4bf58a-b8e1-4cc3-bbf9-d73143322b78
+[32;1mprincipalId : [0mf97f022b-23b4-4fd9-b780-c11f453b818c
+
+
+[32;1mid          : [0m7af0c69a-a548-47d6-aea3-d00e69bd83aa-f97f022b-23b4-4fd9-b780-c11f
+              [32;1m[0m453b818c
+[32;1mroleId      : [0m7af0c69a-a548-47d6-aea3-d00e69bd83aa
+[32;1mprincipalId : [0mf97f022b-23b4-4fd9-b780-c11f453b818c
+
+
+[32;1mid          : [0mc3a6d2f1-a26f-4810-9b0f-591308d5cbf1-f97f022b-23b4-4fd9-b780-c11f
+              [32;1m[0m453b818c
+[32;1mroleId      : [0mc3a6d2f1-a26f-4810-9b0f-591308d5cbf1
+[32;1mprincipalId : [0mf97f022b-23b4-4fd9-b780-c11f453b818c
+
+
+[32;1mRoleAssignmentName : [0m4ffbf86a-4cd8-4cc0-9175-6e6941321922
+[32;1mRoleAssignmentId   : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resour
+                     [32;1m[0mceGroups/data-engineering-synapse-a4xhlck/providers/Micros
+                     [32;1m[0moft.Storage/storageAccounts/asadatalakea4xhlck/providers/M
+                     [32;1m[0microsoft.Authorization/roleAssignments/4ffbf86a-4cd8-4cc0-
+                     [32;1m[0m9175-6e6941321922
+[32;1mScope              : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resour
+                     [32;1m[0mceGroups/data-engineering-synapse-a4xhlck/providers/Micros
+                     [32;1m[0moft.Storage/storageAccounts/asadatalakea4xhlck
+[32;1mDisplayName        : [0masaworkspacea4xhlck
+[32;1mSignInName         : [0m
+[32;1mRoleDefinitionName : [0mStorage Blob Data Owner
+[32;1mRoleDefinitionId   : [0mb7e6dc6d-f1e8-4753-8033-0f276bb0955b
+[32;1mObjectId           : [0m9a34a729-e7d8-42bf-b463-0f647acc0cab
+[32;1mObjectType         : [0mServicePrincipal
+[32;1mCanDelegate        : [0mFalse
+[32;1mDescription        : [0m
+[32;1mConditionVersion   : [0m
+[32;1mCondition          : [0m
+
+
+[32;1mRoleAssignmentName : [0m2c6f75a0-91f3-43c0-a2a2-c58cab3a04a7
+[32;1mRoleAssignmentId   : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resour
+                     [32;1m[0mceGroups/data-engineering-synapse-a4xhlck/providers/Micros
+                     [32;1m[0moft.Storage/storageAccounts/asadatalakea4xhlck/providers/M
+                     [32;1m[0microsoft.Authorization/roleAssignments/2c6f75a0-91f3-43c0-
+                     [32;1m[0ma2a2-c58cab3a04a7
+[32;1mScope              : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resour
+                     [32;1m[0mceGroups/data-engineering-synapse-a4xhlck/providers/Micros
+                     [32;1m[0moft.Storage/storageAccounts/asadatalakea4xhlck
+[32;1mDisplayName        : [0mSaber Zribi
+[32;1mSignInName         : [0msaber.zribi@dp203nov.onmicrosoft.com
+[32;1mRoleDefinitionName : [0mStorage Blob Data Owner
+[32;1mRoleDefinitionId   : [0mb7e6dc6d-f1e8-4753-8033-0f276bb0955b
+[32;1mObjectId           : [0mf97f022b-23b4-4fd9-b780-c11f453b818c
+[32;1mObjectType         : [0mUser
+[32;1mCanDelegate        : [0mFalse
+[32;1mDescription        : [0m
+[32;1mConditionVersion   : [0m
+[32;1mCondition          : [0m
+
+Configuring services...
+
+[32;1mSecretValue : [0mSystem.Security.SecureString
+[32;1mAttributes  : [0mMicrosoft.Azure.Commands.KeyVault.Models.PSKeyVaultSecretAttribut
+              [32;1m[0mes
+[32;1mEnabled     : [0mTrue
+[32;1mExpires     : [0m
+[32;1mNotBefore   : [0m
+[32;1mCreated     : [0m11/09/2022 13:41:36
+[32;1mUpdated     : [0m11/09/2022 13:41:36
+[32;1mContentType : [0m
+[32;1mTags        : [0m
+[32;1mTagsTable   : [0m
+[32;1mVaultName   : [0masakeyvaulta4xhlck
+[32;1mName        : [0mSQL-USER-ASA
+[32;1mVersion     : [0mea46149e9ae94fdf9f0a653612199046
+[32;1mId          : [0mhttps://asakeyvaulta4xhlck.vault.azure.net:443/secrets/SQL-USER-A
+              [32;1m[0mSA/ea46149e9ae94fdf9f0a653612199046
+
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-a4xhlck/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacea4xhlck/linkedservices/asakeyvaulta4xhlck
+[32;1mname       : [0masakeyvaulta4xhlck
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=AzureKeyVault; typeProperties=
+             [32;1m[0m}
+[32;1metag       : [0md600eb71-0000-0d00-0000-636bae120000
+
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-a4xhlck/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacea4xhlck/integrationruntimes/AzureIntegrationRun
+             [32;1m[0mtime01
+[32;1mname       : [0mAzureIntegrationRuntime01
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/integrationruntimes
+[32;1mproperties : [0m@{type=Managed; typeProperties=}
+[32;1metag       : [0md600f071-0000-0d00-0000-636bae1e0000
+
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-a4xhlck/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacea4xhlck/linkedservices/asadatalakea4xhlck
+[32;1mname       : [0masadatalakea4xhlck
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=AzureBlobFS; typeProperties=}
+[32;1metag       : [0md600f671-0000-0d00-0000-636bae2a0000
+
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-a4xhlck/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacea4xhlck/linkedservices/sqlpool01
+[32;1mname       : [0msqlpool01
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=AzureSqlDW; typeProperties=}
+[32;1metag       : [0md600f871-0000-0d00-0000-636bae330000
+
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-a4xhlck/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacea4xhlck/linkedservices/asastorea4xhlck
+[32;1mname       : [0masastorea4xhlck
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=AzureBlobStorage; typeProperti
+             [32;1m[0mes=}
+[32;1metag       : [0md6001072-0000-0d00-0000-636bae410000
+
+
+# Values from the first setup script here
+$selectedSub = ""
+$suffix = "a4xhlck"
+$subscriptionId = "4ca7bc21-be6b-4925-9029-73d37a2a5bf7"
+$resourceGroupName = "data-engineering-synapse-a4xhlck"
+$workspaceName = "asaworkspacea4xhlck"
+$global:logindomain = "79b1cadf-573c-4d97-95d0-00fb5675ff07"
+$global:sqlEndpoint = "asaworkspacea4xhlck.sql.azuresynapse.net"
+$global:sqlUser = "asa.sql.admin"
+$global:synapseToken = ""
+$global:synapseSQLToken = ""
+$global:managementToken = ""
+$global:powerbiToken = ""
+$global:tokenTimes = [ordered]@{
+        Synapse = (Get-Date -Year 1)
+        SynapseSQL = (Get-Date -Year 1)
+        Management = (Get-Date -Year 1)
+        PowerBI = (Get-Date -Year 1)
+}
+
+Script1 Complete!
+Uploading data to Azure...
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job e05f5bf3-ef3f-4e4b-5ba7-05601cc7a109 has started
+Log file is located at: /home/ubuntu/.azcopy/e05f5bf3-ef3f-4e4b-5ba7-05601cc7a109.log
+
+0.4 %, 218 Done, 0 Failed, 59782 Pending, 0 Skipped, 60000 Total (scanning...), 2-sec Throughput (Mb/s): 0.54860.7 %, 676 Done, 0 Failed, 99324 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.1133             1.3 %, 1338 Done, 0 Failed, 98662 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.56912.0 %, 2029 Done, 0 Failed, 97971 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.63092.7 %, 2689 Done, 0 Failed, 97311 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.58023.3 %, 3301 Done, 0 Failed, 96699 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.51153.9 %, 3895 Done, 0 Failed, 96105 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.42064.5 %, 4481 Done, 0 Failed, 95519 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.41425.4 %, 5408 Done, 0 Failed, 94592 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.22876.3 %, 6289 Done, 0 Failed, 93711 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.16937.2 %, 7220 Done, 0 Failed, 92780 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.24318.2 %, 8172 Done, 0 Failed, 91828 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.30669.1 %, 9095 Done, 0 Failed, 90905 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.23389.9 %, 9948 Done, 0 Failed, 90052 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.021410.8 %, 10850 Done, 0 Failed, 89150 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.173311.8 %, 11790 Done, 0 Failed, 88210 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.281212.7 %, 12707 Done, 0 Failed, 87293 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.218513.6 %, 13606 Done, 0 Failed, 86394 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.124614.5 %, 14521 Done, 0 Failed, 85479 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.221115.4 %, 15455 Done, 0 Failed, 84545 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.274416.3 %, 16285 Done, 0 Failed, 83715 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.004917.1 %, 17183 Done, 0 Failed, 82817 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.176 18.1 %, 18110 Done, 0 Failed, 81890 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.231319.0 %, 18981 Done, 0 Failed, 81019 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.157119.9 %, 19882 Done, 0 Failed, 80118 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.182120.7 %, 20745 Done, 0 Failed, 79255 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.060121.6 %, 21665 Done, 0 Failed, 78335 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.263722.6 %, 22584 Done, 0 Failed, 77416 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.205323.5 %, 23502 Done, 0 Failed, 76498 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.322224.4 %, 24404 Done, 0 Failed, 75596 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.136425.4 %, 25347 Done, 0 Failed, 74653 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.295526.2 %, 26238 Done, 0 Failed, 73762 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.132 27.1 %, 27143 Done, 0 Failed, 72857 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.175328.1 %, 28066 Done, 0 Failed, 71934 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.202929.0 %, 29001 Done, 0 Failed, 70999 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.259429.9 %, 29920 Done, 0 Failed, 70080 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.222330.8 %, 30829 Done, 0 Failed, 69171 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.171531.7 %, 31753 Done, 0 Failed, 68247 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.223332.6 %, 32675 Done, 0 Failed, 67325 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.177633.6 %, 33599 Done, 0 Failed, 66401 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.345934.5 %, 34522 Done, 0 Failed, 65478 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.263935.5 %, 35447 Done, 0 Failed, 64553 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.264536.4 %, 36390 Done, 0 Failed, 63610 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.306337.3 %, 37255 Done, 0 Failed, 62745 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.131938.2 %, 38150 Done, 0 Failed, 61850 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.186139.1 %, 39031 Done, 0 Failed, 60969 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.149 40.0 %, 39940 Done, 0 Failed, 60060 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.198440.8 %, 40811 Done, 0 Failed, 59189 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.049441.7 %, 41691 Done, 0 Failed, 58309 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.168142.6 %, 42556 Done, 0 Failed, 57444 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.098443.5 %, 43427 Done, 0 Failed, 56573 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.117644.3 %, 44253 Done, 0 Failed, 55747 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.993145.1 %, 45056 Done, 0 Failed, 54944 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.970545.9 %, 45834 Done, 0 Failed, 54166 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.876 46.7 %, 46683 Done, 0 Failed, 53317 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.963947.6 %, 47546 Done, 0 Failed, 52454 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.108848.4 %, 48393 Done, 0 Failed, 51607 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.099749.2 %, 49119 Done, 0 Failed, 50881 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.807950.0 %, 49963 Done, 0 Failed, 50037 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.088750.8 %, 50743 Done, 0 Failed, 49257 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.864751.6 %, 51536 Done, 0 Failed, 48464 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.920252.3 %, 52271 Done, 0 Failed, 47729 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.774553.1 %, 53066 Done, 0 Failed, 46934 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.940454.0 %, 53872 Done, 0 Failed, 46128 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.996454.7 %, 54658 Done, 0 Failed, 45342 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.908755.5 %, 55469 Done, 0 Failed, 44531 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.927 56.3 %, 56284 Done, 0 Failed, 43716 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.949957.2 %, 57136 Done, 0 Failed, 42864 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.016358.0 %, 57971 Done, 0 Failed, 42029 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.012558.8 %, 58809 Done, 0 Failed, 41191 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.005759.7 %, 59660 Done, 0 Failed, 40340 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.064260.6 %, 60536 Done, 0 Failed, 39464 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.159 61.5 %, 61434 Done, 0 Failed, 38566 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 2.193462.2 %, 62183 Done, 0 Failed, 37817 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.808962.9 %, 62907 Done, 0 Failed, 37093 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.720363.8 %, 63698 Done, 0 Failed, 36302 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.947164.5 %, 64491 Done, 0 Failed, 35509 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.870165.2 %, 65132 Done, 0 Failed, 34868 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.546365.7 %, 65646 Done, 0 Failed, 34354 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.244566.1 %, 66077 Done, 0 Failed, 33923 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.051266.5 %, 66487 Done, 0 Failed, 33513 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.008367.0 %, 66960 Done, 0 Failed, 33040 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.166367.6 %, 67498 Done, 0 Failed, 32502 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.322 68.1 %, 68082 Done, 0 Failed, 31918 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.43168.7 %, 68626 Done, 0 Failed, 31374 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.353369.3 %, 69207 Done, 0 Failed, 30793 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.362569.8 %, 69789 Done, 0 Failed, 30211 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.386670.4 %, 70344 Done, 0 Failed, 29656 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.321471.0 %, 70978 Done, 0 Failed, 29022 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.478971.6 %, 71581 Done, 0 Failed, 28419 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.463672.2 %, 72122 Done, 0 Failed, 27878 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.344472.7 %, 72654 Done, 0 Failed, 27346 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.256 73.3 %, 73316 Done, 0 Failed, 26684 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.573874.0 %, 73960 Done, 0 Failed, 26040 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.559874.7 %, 74621 Done, 0 Failed, 25379 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.644875.3 %, 75284 Done, 0 Failed, 24716 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.619575.9 %, 75840 Done, 0 Failed, 24160 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.327376.4 %, 76369 Done, 0 Failed, 23631 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.294 76.9 %, 76863 Done, 0 Failed, 23137 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.19477.5 %, 77489 Done, 0 Failed, 22511 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.492178.1 %, 78070 Done, 0 Failed, 21930 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.438978.7 %, 78639 Done, 0 Failed, 21361 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.353279.3 %, 79242 Done, 0 Failed, 20758 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.470780.0 %, 79945 Done, 0 Failed, 20055 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.746380.5 %, 80423 Done, 0 Failed, 19577 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.145881.0 %, 81009 Done, 0 Failed, 18991 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.379981.5 %, 81498 Done, 0 Failed, 18502 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.229881.9 %, 81826 Done, 0 Failed, 18174 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.793782.2 %, 82127 Done, 0 Failed, 17873 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.737682.4 %, 82415 Done, 0 Failed, 17585 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.657682.8 %, 82773 Done, 0 Failed, 17227 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.911283.4 %, 83382 Done, 0 Failed, 16618 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.399483.9 %, 83849 Done, 0 Failed, 16151 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.138584.3 %, 84286 Done, 0 Failed, 15714 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.028 84.8 %, 84803 Done, 0 Failed, 15197 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.287985.3 %, 85267 Done, 0 Failed, 14733 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.119 85.7 %, 85612 Done, 0 Failed, 14388 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.842186.1 %, 86090 Done, 0 Failed, 13910 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.111986.5 %, 86504 Done, 0 Failed, 13496 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.996787.0 %, 87021 Done, 0 Failed, 12979 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.288187.4 %, 87435 Done, 0 Failed, 12565 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.970587.9 %, 87901 Done, 0 Failed, 12099 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.135388.3 %, 88315 Done, 0 Failed, 11685 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.031888.9 %, 88923 Done, 0 Failed, 11077 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.461889.5 %, 89471 Done, 0 Failed, 10529 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.328889.6 %, 89542 Done, 0 Failed, 10458 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.170290.1 %, 90074 Done, 0 Failed, 9926 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.2714 90.8 %, 90785 Done, 0 Failed, 9215 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.716991.5 %, 91433 Done, 0 Failed, 8567 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.609292.2 %, 92150 Done, 0 Failed, 7850 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.745192.9 %, 92844 Done, 0 Failed, 7156 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.693593.6 %, 93567 Done, 0 Failed, 6433 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.727394.3 %, 94253 Done, 0 Failed, 5747 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.634395.0 %, 94986 Done, 0 Failed, 5014 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.754 95.7 %, 95677 Done, 0 Failed, 4323 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.663396.4 %, 96431 Done, 0 Failed, 3569 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.845797.2 %, 97215 Done, 0 Failed, 2785 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.925298.0 %, 97957 Done, 0 Failed, 2043 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.766498.6 %, 98580 Done, 0 Failed, 1420 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.508299.4 %, 99336 Done, 0 Failed, 664 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.8102 100.0 %, 99999 Done, 0 Failed, 1 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 1.5298 100.0 %, 100000 Done, 0 Failed, 0 Pending, 0 Skipped, 100000 Total,                               
+
+
+Job e05f5bf3-ef3f-4e4b-5ba7-05601cc7a109 summary
+Elapsed Time (Minutes): 4.7398
+Number of File Transfers: 100000
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 100000
+Number of Transfers Completed: 100000
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 60540367
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job 30aef45f-01e5-a649-7e38-e0b47de27eda has started
+Log file is located at: /home/ubuntu/.azcopy/30aef45f-01e5-a649-7e38-e0b47de27eda.log
+
+11.7 %, 0 Done, 0 Failed, 3 Pending, 0 Skipped, 3 Total, 2-sec Throughput (Mb/s): 525.540471.2 %, 0 Done, 0 Failed, 3 Pending, 0 Skipped, 3 Total, 2-sec Throughput (Mb/s): 265.506 100.0 %, 3 Done, 0 Failed, 0 Pending, 0 Skipped, 3 Total, 2-sec Throughput (Mb/s): 24.1134
+
+
+Job 30aef45f-01e5-a649-7e38-e0b47de27eda summary
+Elapsed Time (Minutes): 0.1001
+Number of File Transfers: 3
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 3
+Number of Transfers Completed: 3
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 204215991
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job e1d8a3af-a2c2-b84a-4ed3-854083120c09 has started
+Log file is located at: /home/ubuntu/.azcopy/e1d8a3af-a2c2-b84a-4ed3-854083120c09.log
+
+100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0389
+
+
+Job e1d8a3af-a2c2-b84a-4ed3-854083120c09 summary
+Elapsed Time (Minutes): 0.0333
+Number of File Transfers: 1
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 1
+Number of Transfers Completed: 1
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 9733
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job 46110037-effc-174e-51ea-4dd953e6c674 has started
+Log file is located at: /home/ubuntu/.azcopy/46110037-effc-174e-51ea-4dd953e6c674.log
+
+100.0 %, 2 Done, 0 Failed, 0 Pending, 0 Skipped, 2 Total, 2-sec Throughput (Mb/s): 0.0686
+
+
+Job 46110037-effc-174e-51ea-4dd953e6c674 summary
+Elapsed Time (Minutes): 0.0334
+Number of File Transfers: 2
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 2
+Number of Transfers Completed: 2
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 17156
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job 3ceb261e-7543-5549-7710-c89354d3b191 has started
+Log file is located at: /home/ubuntu/.azcopy/3ceb261e-7543-5549-7710-c89354d3b191.log
+
+80.7 %, 2 Done, 0 Failed, 1 Pending, 0 Skipped, 3 Total, 2-sec Throughput (Mb/s): 160.097180.7 %, 2 Done, 0 Failed, 1 Pending, 0 Skipped, 3 Total, 2-sec Throughput (Mb/s): 13.2308 100.0 %, 3 Done, 0 Failed, 0 Pending, 0 Skipped, 3 Total,                                
+
+
+Job 3ceb261e-7543-5549-7710-c89354d3b191 summary
+Elapsed Time (Minutes): 0.1001
+Number of File Transfers: 3
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 3
+Number of Transfers Completed: 3
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 43364680
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job e8118475-8eff-3e4a-66cb-2b3231ee2373 has started
+Log file is located at: /home/ubuntu/.azcopy/e8118475-8eff-3e4a-66cb-2b3231ee2373.log
+
+35.1 %, 2 Done, 0 Failed, 3 Pending, 0 Skipped, 5 Total, 2-sec Throughput (Mb/s): 443.037787.7 %, 2 Done, 0 Failed, 3 Pending, 0 Skipped, 5 Total, 2-sec Throughput (Mb/s): 96.9861 100.0 %, 5 Done, 0 Failed, 0 Pending, 0 Skipped, 5 Total, 2-sec Throughput (Mb/s): 3.1437
+
+
+Job e8118475-8eff-3e4a-66cb-2b3231ee2373 summary
+Elapsed Time (Minutes): 0.1001
+Number of File Transfers: 5
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 5
+Number of Transfers Completed: 5
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 135879713
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job 96dfc480-22b0-274c-55f3-1ab5d3ec2b32 has started
+Log file is located at: /home/ubuntu/.azcopy/96dfc480-22b0-274c-55f3-1ab5d3ec2b32.log
+
+100.0 %, 41 Done, 0 Failed, 0 Pending, 0 Skipped, 41 Total, 2-sec Throughput (Mb/s): 145.9583
+
+
+Job 96dfc480-22b0-274c-55f3-1ab5d3ec2b32 summary
+Elapsed Time (Minutes): 0.0334
+Number of File Transfers: 41
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 41
+Number of Transfers Completed: 41
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 36518735
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job 2d6d3d2c-613c-df4f-4c55-5f9717929dac has started
+Log file is located at: /home/ubuntu/.azcopy/2d6d3d2c-613c-df4f-4c55-5f9717929dac.log
+
+36.2 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 324.9667100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 42.8473
+
+
+Job 2d6d3d2c-613c-df4f-4c55-5f9717929dac summary
+Elapsed Time (Minutes): 0.0667
+Number of File Transfers: 1
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 1
+Number of Transfers Completed: 1
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 92003750
+Final Job Status: Completed
+
+Creating SQL scripts...
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-a4xhlck/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacea4xhlck/sqlscripts/Column Level Security
+[32;1mname       : [0mColumn Level Security
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/sqlscripts
+[32;1mproperties : [0m@{content=; type=SqlQuery}
+[32;1metag       : [0md6002773-0000-0d00-0000-636baf860000
+
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-a4xhlck/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacea4xhlck/sqlscripts/Dynamic Data Masking
+[32;1mname       : [0mDynamic Data Masking
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/sqlscripts
+[32;1mproperties : [0m@{content=; type=SqlQuery}
+[32;1metag       : [0md6003a73-0000-0d00-0000-636baf920000
+
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-a4xhlck/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacea4xhlck/sqlscripts/Row Level Security
+[32;1mname       : [0mRow Level Security
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/sqlscripts
+[32;1mproperties : [0m@{content=; type=SqlQuery}
+[32;1metag       : [0md6003e73-0000-0d00-0000-636baf9a0000
+
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-a4xhlck/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacea4xhlck/sqlscripts/Data Warehouse Optimization
+[32;1mname       : [0mData Warehouse Optimization
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/sqlscripts
+[32;1mproperties : [0m@{content=; type=SqlQuery}
+[32;1metag       : [0md6005a73-0000-0d00-0000-636bafa40000
+
+
+# Values from the Second setup script here
+$dataLakeStorageAccountKey = "5BEtklrVLrsfEeXt02JOdnIm1DOAAjoN+WGmI61HBpdL7JVWeK4lw7dogylmbWZTjgAwllafj0Ao+ASt4W+u/Q=="
+$dataLakeAccountName = "asadatalakea4xhlck"
+
+Script2 Complete!
+Loading Cosmos DB...
+
+[32;1mName     : [0mOnlineUserProfile01
+[32;1mId       : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups/d
+           [32;1m[0mata-engineering-synapse-a4xhlck/providers/Microsoft.DocumentDB/datab
+           [32;1m[0maseAccounts/asacosmosdba4xhlck/sqlDatabases/CustomerProfile/containe
+           [32;1m[0mrs/OnlineUserProfile01
+[32;1mLocation : [0m
+[32;1mTags     : [0m
+[32;1mResource : [0mMicrosoft.Azure.Commands.CosmosDB.Models.PSSqlContainerGetProperties
+           [32;1m[0mResource
+
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-a4xhlck/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacea4xhlck/datasets/wwi02_online_user_profiles_01_
+             [32;1m[0madal
+[32;1mname       : [0mwwi02_online_user_profiles_01_adal
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/datasets
+[32;1mproperties : [0m@{linkedServiceName=; annotations=System.Object[]; type=Json; type
+             [32;1m[0mProperties=; schema=}
+[32;1metag       : [0md6006473-0000-0d00-0000-636bafd40000
+
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-a4xhlck/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacea4xhlck/linkedservices/asacosmosdba4xhlck
+[32;1mname       : [0masacosmosdba4xhlck
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=CosmosDb; typeProperties=}
+[32;1metag       : [0md6006673-0000-0d00-0000-636bafe00000
+
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-a4xhlck/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacea4xhlck/datasets/customer_profile_cosmosdb
+[32;1mname       : [0mcustomer_profile_cosmosdb
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/datasets
+[32;1mproperties : [0m@{linkedServiceName=; annotations=System.Object[]; type=CosmosDbSq
+             [32;1m[0mlApiCollection; schema=; typeProperties=}
+[32;1metag       : [0md6007773-0000-0d00-0000-636bafe70000
+
+Running pipeline...
+
+[32;1mid         : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups
+             [32;1m[0m/data-engineering-synapse-a4xhlck/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacea4xhlck/pipelines/Setup - Import User Profile D
+             [32;1m[0mata into Cosmos DB
+[32;1mname       : [0mSetup - Import User Profile Data into Cosmos DB
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/pipelines
+[32;1mproperties : [0m@{description=Copy user profile data from Azure Storage to Azure C
+             [32;1m[0mosmos DB.; activities=System.Object[]; annotations=System.Object[]
+             [32;1m[0m; lastPublishTime=11/09/2022 13:49:38}
+[32;1metag       : [0md6007a73-0000-0d00-0000-636baff20000
+
+
+[32;1mid                  : [0m/SUBSCRIPTIONS/4CA7BC21-BE6B-4925-9029-73D37A2A5BF7/RESOU
+                      [32;1m[0mRCEGROUPS/DATA-ENGINEERING-SYNAPSE-A4XHLCK/PROVIDERS/MICR
+                      [32;1m[0mOSOFT.SYNAPSE/WORKSPACES/ASAWORKSPACEA4XHLCK/pipelineruns
+                      [32;1m[0m/3357dc37-cbfb-4422-9fa4-a49acf070a8a
+[32;1mrunId               : [0m3357dc37-cbfb-4422-9fa4-a49acf070a8a
+[32;1mdebugRunId          : [0m
+[32;1mrunGroupId          : [0m3357dc37-cbfb-4422-9fa4-a49acf070a8a
+[32;1mpipelineName        : [0mSetup - Import User Profile Data into Cosmos DB
+[32;1mparameters          : [0m
+[32;1minvokedBy           : [0m@{id=6a05a3f11cf042179fc1354281b8d3fc; name=Manual; invok
+                      [32;1m[0medByType=Manual}
+[32;1mrunStart            : [0m11/09/2022 13:49:47
+[32;1mrunEnd              : [0m11/09/2022 14:28:18
+[32;1mdurationInMs        : [0m2311005
+[32;1mstatus              : [0mSucceeded
+[32;1mmessage             : [0m
+[32;1mpipelineReturnValue : [0m
+[32;1mlastUpdated         : [0m11/09/2022 14:28:18
+[32;1mannotations         : [0m{}
+[32;1mrunDimension        : [0m
+[32;1misLatest            : [0mTrue
+
+
+
+
+
+
+[32;1mName     : [0mOnlineUserProfile01
+[32;1mId       : [0m/subscriptions/4ca7bc21-be6b-4925-9029-73d37a2a5bf7/resourceGroups/d
+           [32;1m[0mata-engineering-synapse-a4xhlck/providers/Microsoft.DocumentDB/datab
+           [32;1m[0maseAccounts/asacosmosdba4xhlck/sqlDatabases/CustomerProfile/containe
+           [32;1m[0mrs/OnlineUserProfile01
+[32;1mLocation : [0m
+[32;1mTags     : [0m
+[32;1mResource : [0mMicrosoft.Azure.Commands.CosmosDB.Models.PSSqlContainerGetProperties
+           [32;1m[0mResource
+
+Setup complete!
+Done with The ID: saber.zribi@dp203nov.onmicrosoft.com, Name: T7jkaBgDX328 and Tenant ID: 79b1cadf-573c-4d97-95d0-00fb5675ff07!!!!!
+
+Confirm
+The item at 
+/home/ubuntu/dp-203/DP-203-Data-Engineer/Allfiles/00/artifacts/environment-setu
+p/automation/azcopy_linux_amd64_10.16.2 has children and the Recurse parameter 
+was not specified. If you continue, all children will be removed with the item.
+ Are you sure you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help 
+(default is "Y"):

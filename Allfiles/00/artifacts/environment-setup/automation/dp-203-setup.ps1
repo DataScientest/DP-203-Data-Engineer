@@ -1,6 +1,6 @@
-Set-ExecutionPolicy Unrestricted
-			
-cd /dp-203\DP-203-Data-Engineer\Allfiles\00\artifacts\environment-setup\automation
+## Modification: we don't need them on DST VMs
+##Set-ExecutionPolicy Unrestricted			
+##cd /dp-203\DP-203-Data-Engineer\Allfiles\00\artifacts\environment-setup\automation
 
 
 #### CONNEXION SANS INTERACTION ####
@@ -89,7 +89,8 @@ Write-Host "User ID: $userId"
 # Prompt user for a password for the SQL Database
 write-host ""
 $sqlPassword = "Azure2022!" # On force le mot de passe pour être un peu plus tranquille
-$complexPassword = 0
+
+#$complexPassword = 0
 
 # while ($complexPassword -ne 1)
 # {
@@ -135,7 +136,8 @@ $resourceGroupName = "data-engineering-synapse-$suffix"
 # (required to balance resource capacity across regions)
 Write-Host "Selecting a region for deployment..."
 
-$preferred_list = "eastasia", "northcentralus", "westeurope", "australiaeast","northeurope", "southeastasia","uksouth","westus","westus2"
+#$preferred_list = "eastasia", "northcentralus", "westeurope", "australiaeast","northeurope", "southeastasia","uksouth","westus","westus2"
+$preferred_list = "northeurope", "eastasia", "southeastasia", "westeurope", "westus"
 $locations = Get-AzLocation | Where-Object {
     $_.Providers -contains "Microsoft.Synapse" -and
     $_.Providers -contains "Microsoft.Databricks" -and
@@ -182,7 +184,7 @@ Write-Host "Selected region: $random_location"
 Write-Host "Creating Azure resources. This may take some time..."
 
 New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName `
-  -TemplateFile "00-asa-workspace-core.json" `
+  -TemplateFile "./00-asa-workspace-core.json" `
   -Mode Complete `
   -uniqueSuffix $suffix `
   -sqlAdministratorLoginPassword $sqlPassword `

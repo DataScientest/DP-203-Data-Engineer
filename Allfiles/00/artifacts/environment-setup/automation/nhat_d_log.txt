@@ -1,0 +1,604 @@
+
+[32;1mId                    : [0mnhat.dao@dp203nov.onmicrosoft.com
+[32;1mType                  : [0mUser
+[32;1mTenants               : [0m{79b1cadf-573c-4d97-95d0-00fb5675ff07}
+[32;1mCredential            : [0m
+[32;1mTenantMap             : [0m{}
+[32;1mCertificateThumbprint : [0m
+[32;1mExtendedProperties    : [0m{[HomeAccountId, 8897af82-7a7c-461a-9ec4-43e547b64cbc.7
+                        [32;1m[0m9b1cadf-573c-4d97-95d0-00fb5675ff07], [Subscriptions, 0
+                        [32;1m[0mf6fd3b8-9d11-4a78-9eb3-9a8e22463514], [Tenants, 79b1cad
+                        [32;1m[0mf-573c-4d97-95d0-00fb5675ff07], [UsePasswordAuth, true]
+                        [32;1m[0m}
+
+[33;1mWARNING: The names of some imported commands from the module 'solliance-synapse-automation' include unapproved verbs that might make them less discoverable. To find the commands with unapproved verbs, run the Import-Module command again with the Verbose parameter. For a list of approved verbs, type Get-Verb.[0m
+[
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "79b1cadf-573c-4d97-95d0-00fb5675ff07",
+    "id": "0f6fd3b8-9d11-4a78-9eb3-9a8e22463514",
+    "isDefault": true,
+    "managedByTenants": [],
+    "name": "Pass Azure - Sponsorship",
+    "state": "Enabled",
+    "tenantId": "79b1cadf-573c-4d97-95d0-00fb5675ff07",
+    "user": {
+      "name": "nhat.dao@dp203nov.onmicrosoft.com",
+      "type": "user"
+    }
+  }
+]
+
+[32;1mEnvironments : [0m{[AzureCloud, AzureCloud], [AzureChinaCloud, AzureChinaCloud], [
+               [32;1m[0mAzureUSGovernment, AzureUSGovernment]}
+[32;1mContext      : [0mMicrosoft.Azure.Commands.Profile.Models.Core.PSAzureContext
+
+User Name: nhat.dao@dp203nov.onmicrosoft.com
+User ID: 8897af82-7a7c-461a-9ec4-43e547b64cbc
+
+Registering resource providers...
+
+[32;1mProviderNamespace : [0mMicrosoft.Databricks
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{workspaces, accessConnectors, workspaces/virtualNetworkPee
+                    [32;1m[0mrings, workspaces/dbWorkspaces…}
+[32;1mLocations         : [0m{West US, East US 2, West Europe, East US…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.Synapse
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{workspaces, workspaces/bigDataPools, workspaces/sqlPools, 
+                    [32;1m[0mworkspaces/sqlDatabases…}
+[32;1mLocations         : [0m{West US 2, East US, North Europe, West Europe…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.Sql
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{operations, locations, locations/capabilities, locations/d
+                    [32;1m[0matabaseAzureAsyncOperation…}
+[32;1mLocations         : [0m{Australia Central, Australia East, Australia Southeast, Br
+                    [32;1m[0mazil South…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.DocumentDB
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{databaseAccounts, databaseAccountNames, operations, operat
+                    [32;1m[0mionResults…}
+[32;1mLocations         : [0m{West Central US, North Central US, Central US, Brazil Sout
+                    [32;1m[0mh…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.StreamAnalytics
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{streamingjobs, clusters, clusters/privateEndpoints, locati
+                    [32;1m[0mons…}
+[32;1mLocations         : [0m{Central US, West Europe, East US 2, North Europe…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.EventHub
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{namespaces, clusters, namespaces/authorizationrules, names
+                    [32;1m[0mpaces/networkrulesets…}
+[32;1mLocations         : [0m{Australia Central, Australia East, Australia Southeast, Br
+                    [32;1m[0mazil South…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.KeyVault
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{vaults, vaults/secrets, vaults/accessPolicies, operations…
+                    [32;1m[0m}
+[32;1mLocations         : [0m{North Central US, East US, North Europe, West Europe…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.Storage
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{storageAccounts/storageTaskAssignments, storageAccounts/en
+                    [32;1m[0mcryptionScopes, deletedAccounts, locations/deletedAccounts…
+                    [32;1m[0m}
+[32;1mLocations         : [0m{East US, East US 2, West US, West Europe…}
+[32;1mZoneMappings      : [0m
+
+
+[32;1mProviderNamespace : [0mMicrosoft.Compute
+[32;1mRegistrationState : [0mRegistered
+[32;1mResourceTypes     : [0m{availabilitySets, virtualMachines, virtualMachines/extensi
+                    [32;1m[0mons, virtualMachineScaleSets…}
+[32;1mLocations         : [0m{East US, East US 2, West US, Central US…}
+[32;1mZoneMappings      : [0m
+
+Your randomly-generated suffix for Azure resources is pl50xbj
+Selecting a region for deployment...
+Try to create a SQL Database resource to test for capacity constraints
+Selected region: eastasia
+Creating Azure resources. This may take some time...
+
+[32;1mResourceGroupName       : [0mdata-engineering-synapse-pl50xbj
+[32;1mOnErrorDeployment       : [0m
+[32;1mDeploymentName          : [0m00-asa-workspace-core
+[32;1mCorrelationId           : [0m7b9f657e-2790-4be1-86bb-205ed1a570c5
+[32;1mProvisioningState       : [0mSucceeded
+[32;1mTimestamp               : [0m11/09/2022 22:10:57
+[32;1mMode                    : [0mComplete
+[32;1mTemplateLink            : [0m
+[32;1mTemplateLinkString      : [0m
+[32;1mDeploymentDebugLogLevel : [0m
+[32;1mParameters              : [0m{[uniqueSuffix, 
+[32;1m                          [0mType        Value     
+[32;1m                          [0m----------  ----------
+[32;1m                          [0mString      pl50xbj   
+[32;1m                          [0m], [sqlAdministratorLoginPassword, 
+[32;1m                          [0mType        Value     
+[32;1m                          [0m----------  ----------
+[32;1m                          [0mString      Azure2022!
+[32;1m                          [0m]}
+[32;1mTags                    : [0m
+[32;1mParametersString        : [0m
+[32;1m                          [0mName                             Type                
+                          [32;1m[0m       Value     
+[32;1m                          [0m===============================  ====================
+                          [32;1m[0m=====  ==========
+[32;1m                          [0muniqueSuffix                     String              
+                          [32;1m[0m       "pl50xbj" 
+[32;1m                          [0msqlAdministratorLoginPassword    String              
+                          [32;1m[0m       "Azure2022!"
+[32;1m                          [0m
+[32;1mOutputs                 : [0m{}
+[32;1mOutputsString           : [0m
+
+Performing post-deployment configuration...
+Granting nhat.dao@dp203nov.onmicrosoft.com admin permissions...
+
+[32;1mid          : [0m6e4bf58a-b8e1-4cc3-bbf9-d73143322b78-8897af82-7a7c-461a-9ec4-43e5
+              [32;1m[0m47b64cbc
+[32;1mroleId      : [0m6e4bf58a-b8e1-4cc3-bbf9-d73143322b78
+[32;1mprincipalId : [0m8897af82-7a7c-461a-9ec4-43e547b64cbc
+
+
+[32;1mid          : [0m7af0c69a-a548-47d6-aea3-d00e69bd83aa-8897af82-7a7c-461a-9ec4-43e5
+              [32;1m[0m47b64cbc
+[32;1mroleId      : [0m7af0c69a-a548-47d6-aea3-d00e69bd83aa
+[32;1mprincipalId : [0m8897af82-7a7c-461a-9ec4-43e547b64cbc
+
+
+[32;1mid          : [0mc3a6d2f1-a26f-4810-9b0f-591308d5cbf1-8897af82-7a7c-461a-9ec4-43e5
+              [32;1m[0m47b64cbc
+[32;1mroleId      : [0mc3a6d2f1-a26f-4810-9b0f-591308d5cbf1
+[32;1mprincipalId : [0m8897af82-7a7c-461a-9ec4-43e547b64cbc
+
+
+[32;1mRoleAssignmentName : [0ma2e72ace-5676-4b1c-b565-5eb67a78a733
+[32;1mRoleAssignmentId   : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resour
+                     [32;1m[0mceGroups/data-engineering-synapse-pl50xbj/providers/Micros
+                     [32;1m[0moft.Storage/storageAccounts/asadatalakepl50xbj/providers/M
+                     [32;1m[0microsoft.Authorization/roleAssignments/a2e72ace-5676-4b1c-
+                     [32;1m[0mb565-5eb67a78a733
+[32;1mScope              : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resour
+                     [32;1m[0mceGroups/data-engineering-synapse-pl50xbj/providers/Micros
+                     [32;1m[0moft.Storage/storageAccounts/asadatalakepl50xbj
+[32;1mDisplayName        : [0masaworkspacepl50xbj
+[32;1mSignInName         : [0m
+[32;1mRoleDefinitionName : [0mStorage Blob Data Owner
+[32;1mRoleDefinitionId   : [0mb7e6dc6d-f1e8-4753-8033-0f276bb0955b
+[32;1mObjectId           : [0m3d66a7b6-9843-4b8d-b65b-16209b296510
+[32;1mObjectType         : [0mServicePrincipal
+[32;1mCanDelegate        : [0mFalse
+[32;1mDescription        : [0m
+[32;1mConditionVersion   : [0m
+[32;1mCondition          : [0m
+
+
+[32;1mRoleAssignmentName : [0mae675224-2502-4f42-abaf-4c2c7c7e6927
+[32;1mRoleAssignmentId   : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resour
+                     [32;1m[0mceGroups/data-engineering-synapse-pl50xbj/providers/Micros
+                     [32;1m[0moft.Storage/storageAccounts/asadatalakepl50xbj/providers/M
+                     [32;1m[0microsoft.Authorization/roleAssignments/ae675224-2502-4f42-
+                     [32;1m[0mabaf-4c2c7c7e6927
+[32;1mScope              : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resour
+                     [32;1m[0mceGroups/data-engineering-synapse-pl50xbj/providers/Micros
+                     [32;1m[0moft.Storage/storageAccounts/asadatalakepl50xbj
+[32;1mDisplayName        : [0mNhat Dao
+[32;1mSignInName         : [0mnhat.dao@dp203nov.onmicrosoft.com
+[32;1mRoleDefinitionName : [0mStorage Blob Data Owner
+[32;1mRoleDefinitionId   : [0mb7e6dc6d-f1e8-4753-8033-0f276bb0955b
+[32;1mObjectId           : [0m8897af82-7a7c-461a-9ec4-43e547b64cbc
+[32;1mObjectType         : [0mUser
+[32;1mCanDelegate        : [0mFalse
+[32;1mDescription        : [0m
+[32;1mConditionVersion   : [0m
+[32;1mCondition          : [0m
+
+Configuring services...
+
+[32;1mSecretValue : [0mSystem.Security.SecureString
+[32;1mAttributes  : [0mMicrosoft.Azure.Commands.KeyVault.Models.PSKeyVaultSecretAttribut
+              [32;1m[0mes
+[32;1mEnabled     : [0mTrue
+[32;1mExpires     : [0m
+[32;1mNotBefore   : [0m
+[32;1mCreated     : [0m11/09/2022 22:11:43
+[32;1mUpdated     : [0m11/09/2022 22:11:43
+[32;1mContentType : [0m
+[32;1mTags        : [0m
+[32;1mTagsTable   : [0m
+[32;1mVaultName   : [0masakeyvaultpl50xbj
+[32;1mName        : [0mSQL-USER-ASA
+[32;1mVersion     : [0m9ad15638253946e588dfe90a226d56ea
+[32;1mId          : [0mhttps://asakeyvaultpl50xbj.vault.azure.net:443/secrets/SQL-USER-A
+              [32;1m[0mSA/9ad15638253946e588dfe90a226d56ea
+
+
+[32;1mid         : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resourceGroups
+             [32;1m[0m/data-engineering-synapse-pl50xbj/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacepl50xbj/linkedservices/asakeyvaultpl50xbj
+[32;1mname       : [0masakeyvaultpl50xbj
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=AzureKeyVault; typeProperties=
+             [32;1m[0m}
+[32;1metag       : [0m70011708-0000-1900-0000-636c25a60000
+
+
+[32;1mid         : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resourceGroups
+             [32;1m[0m/data-engineering-synapse-pl50xbj/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacepl50xbj/integrationruntimes/AzureIntegrationRun
+             [32;1m[0mtime01
+[32;1mname       : [0mAzureIntegrationRuntime01
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/integrationruntimes
+[32;1mproperties : [0m@{type=Managed; typeProperties=}
+[32;1metag       : [0m70018909-0000-1900-0000-636c25b80000
+
+
+[32;1mid         : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resourceGroups
+             [32;1m[0m/data-engineering-synapse-pl50xbj/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacepl50xbj/linkedservices/asadatalakepl50xbj
+[32;1mname       : [0masadatalakepl50xbj
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=AzureBlobFS; typeProperties=}
+[32;1metag       : [0m7001a00a-0000-1900-0000-636c25ca0000
+
+
+[32;1mid         : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resourceGroups
+             [32;1m[0m/data-engineering-synapse-pl50xbj/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacepl50xbj/linkedservices/sqlpool01
+[32;1mname       : [0msqlpool01
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=AzureSqlDW; typeProperties=}
+[32;1metag       : [0m70011b0b-0000-1900-0000-636c25d20000
+
+
+[32;1mid         : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resourceGroups
+             [32;1m[0m/data-engineering-synapse-pl50xbj/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacepl50xbj/linkedservices/asastorepl50xbj
+[32;1mname       : [0masastorepl50xbj
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=AzureBlobStorage; typeProperti
+             [32;1m[0mes=}
+[32;1metag       : [0m7001460c-0000-1900-0000-636c25e70000
+
+
+# Values from the first setup script here
+$selectedSub = ""
+$suffix = "pl50xbj"
+$subscriptionId = "0f6fd3b8-9d11-4a78-9eb3-9a8e22463514"
+$resourceGroupName = "data-engineering-synapse-pl50xbj"
+$workspaceName = "asaworkspacepl50xbj"
+$global:logindomain = "79b1cadf-573c-4d97-95d0-00fb5675ff07"
+$global:sqlEndpoint = "asaworkspacepl50xbj.sql.azuresynapse.net"
+$global:sqlUser = "asa.sql.admin"
+$global:synapseToken = ""
+$global:synapseSQLToken = ""
+$global:managementToken = ""
+$global:powerbiToken = ""
+$global:tokenTimes = [ordered]@{
+        Synapse = (Get-Date -Year 1)
+        SynapseSQL = (Get-Date -Year 1)
+        Management = (Get-Date -Year 1)
+        PowerBI = (Get-Date -Year 1)
+}
+
+Script1 Complete!
+Uploading data to Azure...
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job 581da898-7cb6-d84c-6cba-ce5131826148 has started
+Log file is located at: /home/ubuntu/.azcopy/581da898-7cb6-d84c-6cba-ce5131826148.log
+
+0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 113.44869.1 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 207.292281.8 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 37.437390.9 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 9.6938 90.9 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total,                                100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 
+
+
+Job 581da898-7cb6-d84c-6cba-ce5131826148 summary
+Elapsed Time (Minutes): 0.2001
+Number of File Transfers: 1
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 1
+Number of Transfers Completed: 1
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 92003750
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job ab742d1a-40a6-e245-7261-05406d80159a has started
+Log file is located at: /home/ubuntu/.azcopy/ab742d1a-40a6-e245-7261-05406d80159a.log
+
+0.0 %, 0 Done, 0 Failed, 3 Pending, 0 Skipped, 3 Total, 2-sec Throughput (Mb/s): 244.71514.1 %, 0 Done, 0 Failed, 3 Pending, 0 Skipped, 3 Total, 2-sec Throughput (Mb/s): 511.874687.7 %, 0 Done, 0 Failed, 3 Pending, 0 Skipped, 3 Total, 2-sec Throughput (Mb/s): 59.9855100.0 %, 3 Done, 0 Failed, 0 Pending, 0 Skipped, 3 Total,                                
+
+
+Job ab742d1a-40a6-e245-7261-05406d80159a summary
+Elapsed Time (Minutes): 0.1334
+Number of File Transfers: 3
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 3
+Number of Transfers Completed: 3
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 204215991
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job 9bdc84e8-6033-cc4a-77b0-40b0b79b0ae9 has started
+Log file is located at: /home/ubuntu/.azcopy/9bdc84e8-6033-cc4a-77b0-40b0b79b0ae9.log
+
+100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0389
+
+
+Job 9bdc84e8-6033-cc4a-77b0-40b0b79b0ae9 summary
+Elapsed Time (Minutes): 0.0334
+Number of File Transfers: 1
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 1
+Number of Transfers Completed: 1
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 9733
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job ca4983dd-6155-a640-6e01-5fb311bdee12 has started
+Log file is located at: /home/ubuntu/.azcopy/ca4983dd-6155-a640-6e01-5fb311bdee12.log
+
+0.0 %, 1 Done, 0 Failed, 40 Pending, 0 Skipped, 41 Total, 2-sec Throughput (Mb/s): 116.2472100.0 %, 41 Done, 0 Failed, 0 Pending, 0 Skipped, 41 Total, 2-sec Throughput (Mb/s): 29.7365
+
+
+Job ca4983dd-6155-a640-6e01-5fb311bdee12 summary
+Elapsed Time (Minutes): 0.0667
+Number of File Transfers: 41
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 41
+Number of Transfers Completed: 41
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 36518735
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job ebe07999-f742-fa4f-5d18-558013a79a31 has started
+Log file is located at: /home/ubuntu/.azcopy/ebe07999-f742-fa4f-5d18-558013a79a31.log
+
+0.1 %, 2 Done, 0 Failed, 1 Pending, 0 Skipped, 3 Total, 2-sec Throughput (Mb/s): 59.37893.3 %, 2 Done, 0 Failed, 1 Pending, 0 Skipped, 3 Total, 2-sec Throughput (Mb/s): 107.1487100.0 %, 3 Done, 0 Failed, 0 Pending, 0 Skipped, 3 Total, 2-sec Throughput (Mb/s): 6.8132
+
+
+Job ebe07999-f742-fa4f-5d18-558013a79a31 summary
+Elapsed Time (Minutes): 0.1001
+Number of File Transfers: 3
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 3
+Number of Transfers Completed: 3
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 43364680
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job dfc8e60e-b611-1a43-45e2-b0fe826cd731 has started
+Log file is located at: /home/ubuntu/.azcopy/dfc8e60e-b611-1a43-45e2-b0fe826cd731.log
+
+0.0 %, 2 Done, 0 Failed, 3 Pending, 0 Skipped, 5 Total, 2-sec Throughput (Mb/s): 183.19076.2 %, 2 Done, 0 Failed, 3 Pending, 0 Skipped, 5 Total, 2-sec Throughput (Mb/s): 313.0397100.0 %, 3 Done, 0 Failed, 2 Pending, 0 Skipped, 5 Total, 2-sec Throughput (Mb/s): 47.0905100.0 %, 5 Done, 0 Failed, 0 Pending, 0 Skipped, 5 Total,                                 
+
+
+Job dfc8e60e-b611-1a43-45e2-b0fe826cd731 summary
+Elapsed Time (Minutes): 0.1334
+Number of File Transfers: 5
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 5
+Number of Transfers Completed: 5
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 135879713
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job 5850a499-5a54-834d-5e18-bf3a137991f0 has started
+Log file is located at: /home/ubuntu/.azcopy/5850a499-5a54-834d-5e18-bf3a137991f0.log
+
+0.1 %, 33 Done, 0 Failed, 39967 Pending, 0 Skipped, 40000 Total (scanning...), 2-sec Throughput (Mb/s): 0.14460.2 %, 157 Done, 0 Failed, 89843 Pending, 0 Skipped, 90000 Total (scanning...), 2-sec Throughput (Mb/s): 0.27960.3 %, 286 Done, 0 Failed, 99714 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.3037             0.4 %, 419 Done, 0 Failed, 99581 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.31390.5 %, 549 Done, 0 Failed, 99451 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.28340.7 %, 694 Done, 0 Failed, 99306 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.35280.8 %, 827 Done, 0 Failed, 99173 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.31390.9 %, 959 Done, 0 Failed, 99041 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.31331.1 %, 1091 Done, 0 Failed, 98909 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.31971.2 %, 1212 Done, 0 Failed, 98788 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.285 1.3 %, 1358 Done, 0 Failed, 98642 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.36491.5 %, 1495 Done, 0 Failed, 98505 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34511.6 %, 1638 Done, 0 Failed, 98362 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.33671.8 %, 1777 Done, 0 Failed, 98223 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.35971.9 %, 1919 Done, 0 Failed, 98081 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.32092.0 %, 2059 Done, 0 Failed, 97941 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.33112.2 %, 2199 Done, 0 Failed, 97801 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.32812.3 %, 2340 Done, 0 Failed, 97660 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.31892.5 %, 2482 Done, 0 Failed, 97518 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34172.6 %, 2625 Done, 0 Failed, 97375 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34832.8 %, 2766 Done, 0 Failed, 97234 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.36172.9 %, 2906 Done, 0 Failed, 97094 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.33713.0 %, 3047 Done, 0 Failed, 96953 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.35043.2 %, 3189 Done, 0 Failed, 96811 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.364 3.3 %, 3331 Done, 0 Failed, 96669 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.36043.5 %, 3474 Done, 0 Failed, 96526 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.356 3.6 %, 3615 Done, 0 Failed, 96385 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34223.8 %, 3755 Done, 0 Failed, 96245 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34663.9 %, 3894 Done, 0 Failed, 96106 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.36234.1 %, 4038 Done, 0 Failed, 95962 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.36314.2 %, 4174 Done, 0 Failed, 95826 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.32674.3 %, 4321 Done, 0 Failed, 95679 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34624.5 %, 4461 Done, 0 Failed, 95539 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.33844.6 %, 4601 Done, 0 Failed, 95399 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.33724.8 %, 4745 Done, 0 Failed, 95255 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.36284.9 %, 4881 Done, 0 Failed, 95119 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.31345.0 %, 5026 Done, 0 Failed, 94974 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34015.2 %, 5165 Done, 0 Failed, 94835 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.32885.3 %, 5305 Done, 0 Failed, 94695 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34735.5 %, 5449 Done, 0 Failed, 94551 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.32585.6 %, 5588 Done, 0 Failed, 94412 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.32285.7 %, 5735 Done, 0 Failed, 94265 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.35365.9 %, 5872 Done, 0 Failed, 94128 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.33696.0 %, 6009 Done, 0 Failed, 93991 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.32196.1 %, 6156 Done, 0 Failed, 93844 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.33656.3 %, 6296 Done, 0 Failed, 93704 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34996.4 %, 6438 Done, 0 Failed, 93562 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.35656.6 %, 6576 Done, 0 Failed, 93424 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34856.7 %, 6716 Done, 0 Failed, 93284 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.33936.9 %, 6861 Done, 0 Failed, 93139 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.32567.0 %, 6995 Done, 0 Failed, 93005 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.33317.1 %, 7142 Done, 0 Failed, 92858 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.377 7.3 %, 7279 Done, 0 Failed, 92721 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.3257.4 %, 7423 Done, 0 Failed, 92577 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.36187.6 %, 7564 Done, 0 Failed, 92436 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34037.7 %, 7702 Done, 0 Failed, 92298 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.33187.8 %, 7848 Done, 0 Failed, 92152 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.33498.0 %, 7985 Done, 0 Failed, 92015 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.30758.1 %, 8128 Done, 0 Failed, 91872 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.32948.3 %, 8269 Done, 0 Failed, 91731 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.33948.4 %, 8408 Done, 0 Failed, 91592 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.32388.5 %, 8550 Done, 0 Failed, 91450 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.35378.7 %, 8692 Done, 0 Failed, 91308 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.316 8.8 %, 8830 Done, 0 Failed, 91170 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.31598.9 %, 8973 Done, 0 Failed, 91027 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34  9.1 %, 9115 Done, 0 Failed, 90885 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.35099.2 %, 9254 Done, 0 Failed, 90746 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.35569.4 %, 9398 Done, 0 Failed, 90602 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34919.5 %, 9536 Done, 0 Failed, 90464 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.324 9.6 %, 9680 Done, 0 Failed, 90320 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34039.8 %, 9818 Done, 0 Failed, 90182 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.35359.9 %, 9956 Done, 0 Failed, 90044 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.337610.1 %, 10101 Done, 0 Failed, 89899 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333810.2 %, 10237 Done, 0 Failed, 89763 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.327510.3 %, 10382 Done, 0 Failed, 89618 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.330410.5 %, 10520 Done, 0 Failed, 89480 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.360710.6 %, 10663 Done, 0 Failed, 89337 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.336610.8 %, 10805 Done, 0 Failed, 89195 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.343110.9 %, 10941 Done, 0 Failed, 89059 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.332811.0 %, 11088 Done, 0 Failed, 88912 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.326911.2 %, 11226 Done, 0 Failed, 88774 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.339711.3 %, 11368 Done, 0 Failed, 88632 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.343511.5 %, 11509 Done, 0 Failed, 88491 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333911.6 %, 11648 Done, 0 Failed, 88352 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.334311.7 %, 11788 Done, 0 Failed, 88212 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333511.9 %, 11927 Done, 0 Failed, 88073 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.332512.0 %, 12073 Done, 0 Failed, 87927 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.349612.2 %, 12210 Done, 0 Failed, 87790 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340612.3 %, 12354 Done, 0 Failed, 87646 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.349812.5 %, 12493 Done, 0 Failed, 87507 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.350712.6 %, 12635 Done, 0 Failed, 87365 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.355712.7 %, 12778 Done, 0 Failed, 87222 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.329912.9 %, 12916 Done, 0 Failed, 87084 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.345313.0 %, 13054 Done, 0 Failed, 86946 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341913.2 %, 13198 Done, 0 Failed, 86802 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344613.3 %, 13339 Done, 0 Failed, 86661 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.329613.4 %, 13480 Done, 0 Failed, 86520 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.358113.6 %, 13619 Done, 0 Failed, 86381 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.335113.7 %, 13760 Done, 0 Failed, 86240 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.362413.9 %, 13906 Done, 0 Failed, 86094 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344914.0 %, 14043 Done, 0 Failed, 85957 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333 14.2 %, 14184 Done, 0 Failed, 85816 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.354214.3 %, 14325 Done, 0 Failed, 85675 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333114.4 %, 14469 Done, 0 Failed, 85531 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.365214.6 %, 14609 Done, 0 Failed, 85391 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.322214.7 %, 14747 Done, 0 Failed, 85253 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.317114.9 %, 14890 Done, 0 Failed, 85110 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.373315.0 %, 15033 Done, 0 Failed, 84967 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.366215.2 %, 15172 Done, 0 Failed, 84828 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.330115.3 %, 15313 Done, 0 Failed, 84687 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341315.4 %, 15455 Done, 0 Failed, 84545 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.338515.6 %, 15596 Done, 0 Failed, 84404 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.339815.7 %, 15734 Done, 0 Failed, 84266 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.331715.8 %, 15877 Done, 0 Failed, 84123 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344316.0 %, 16015 Done, 0 Failed, 83985 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.305116.1 %, 16161 Done, 0 Failed, 83839 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344716.3 %, 16301 Done, 0 Failed, 83699 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.360516.4 %, 16443 Done, 0 Failed, 83557 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.355916.6 %, 16584 Done, 0 Failed, 83416 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.358316.7 %, 16725 Done, 0 Failed, 83275 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.338616.8 %, 16868 Done, 0 Failed, 83132 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.357817.0 %, 17006 Done, 0 Failed, 82994 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.319517.1 %, 17150 Done, 0 Failed, 82850 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.323717.3 %, 17288 Done, 0 Failed, 82712 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.324817.4 %, 17430 Done, 0 Failed, 82570 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.321517.5 %, 17571 Done, 0 Failed, 82429 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.353717.7 %, 17706 Done, 0 Failed, 82294 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.335617.8 %, 17856 Done, 0 Failed, 82144 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.352817.9 %, 17991 Done, 0 Failed, 82009 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.295918.1 %, 18134 Done, 0 Failed, 81866 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.345618.2 %, 18274 Done, 0 Failed, 81726 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.336918.4 %, 18415 Done, 0 Failed, 81585 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.350918.5 %, 18559 Done, 0 Failed, 81441 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.376718.7 %, 18698 Done, 0 Failed, 81302 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.338518.8 %, 18841 Done, 0 Failed, 81159 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.353919.0 %, 18978 Done, 0 Failed, 81022 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.368819.1 %, 19115 Done, 0 Failed, 80885 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.329919.2 %, 19261 Done, 0 Failed, 80739 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.334219.4 %, 19396 Done, 0 Failed, 80604 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.327 19.5 %, 19542 Done, 0 Failed, 80458 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.365719.7 %, 19683 Done, 0 Failed, 80317 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.334319.8 %, 19822 Done, 0 Failed, 80178 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.348 19.9 %, 19966 Done, 0 Failed, 80034 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333220.1 %, 20106 Done, 0 Failed, 79894 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.336620.2 %, 20244 Done, 0 Failed, 79756 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333320.3 %, 20385 Done, 0 Failed, 79615 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.320520.5 %, 20525 Done, 0 Failed, 79475 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.352720.6 %, 20659 Done, 0 Failed, 79341 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.336520.8 %, 20808 Done, 0 Failed, 79192 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.369120.9 %, 20946 Done, 0 Failed, 79054 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.339721.1 %, 21092 Done, 0 Failed, 78908 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.354321.2 %, 21231 Done, 0 Failed, 78769 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.338421.4 %, 21368 Done, 0 Failed, 78632 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.343721.5 %, 21512 Done, 0 Failed, 78488 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.379621.6 %, 21653 Done, 0 Failed, 78347 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333721.8 %, 21794 Done, 0 Failed, 78206 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.318821.9 %, 21933 Done, 0 Failed, 78067 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.355922.1 %, 22077 Done, 0 Failed, 77923 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.342322.2 %, 22219 Done, 0 Failed, 77781 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340222.3 %, 22357 Done, 0 Failed, 77643 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.320822.5 %, 22500 Done, 0 Failed, 77500 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.358222.6 %, 22638 Done, 0 Failed, 77362 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.323522.8 %, 22782 Done, 0 Failed, 77218 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.368522.9 %, 22924 Done, 0 Failed, 77076 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.338523.1 %, 23060 Done, 0 Failed, 76940 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.316423.2 %, 23207 Done, 0 Failed, 76793 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344223.3 %, 23342 Done, 0 Failed, 76658 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.332223.5 %, 23487 Done, 0 Failed, 76513 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.349 23.6 %, 23629 Done, 0 Failed, 76371 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.357523.8 %, 23766 Done, 0 Failed, 76234 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.329123.9 %, 23914 Done, 0 Failed, 76086 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.357624.0 %, 24049 Done, 0 Failed, 75951 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.328224.2 %, 24195 Done, 0 Failed, 75805 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.366124.3 %, 24332 Done, 0 Failed, 75668 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.316 24.5 %, 24465 Done, 0 Failed, 75535 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.312524.6 %, 24618 Done, 0 Failed, 75382 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.355824.7 %, 24753 Done, 0 Failed, 75247 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.330924.9 %, 24897 Done, 0 Failed, 75103 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341125.0 %, 25041 Done, 0 Failed, 74959 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.345125.1 %, 25174 Done, 0 Failed, 74826 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.304725.3 %, 25323 Done, 0 Failed, 74677 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.357925.4 %, 25460 Done, 0 Failed, 74540 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.339925.6 %, 25607 Done, 0 Failed, 74393 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.373525.7 %, 25744 Done, 0 Failed, 74256 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.327825.9 %, 25883 Done, 0 Failed, 74117 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.346626.0 %, 26028 Done, 0 Failed, 73972 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.356926.2 %, 26168 Done, 0 Failed, 73832 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340326.3 %, 26312 Done, 0 Failed, 73688 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.368126.4 %, 26454 Done, 0 Failed, 73546 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.338826.6 %, 26593 Done, 0 Failed, 73407 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.337426.7 %, 26734 Done, 0 Failed, 73266 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.318526.9 %, 26876 Done, 0 Failed, 73124 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.339727.0 %, 27019 Done, 0 Failed, 72981 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.358 27.1 %, 27161 Done, 0 Failed, 72839 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.36527.3 %, 27300 Done, 0 Failed, 72700 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.334527.4 %, 27445 Done, 0 Failed, 72555 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.361827.6 %, 27584 Done, 0 Failed, 72416 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.347227.7 %, 27727 Done, 0 Failed, 72273 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333727.9 %, 27868 Done, 0 Failed, 72132 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.334428.0 %, 28010 Done, 0 Failed, 71990 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.351928.1 %, 28152 Done, 0 Failed, 71848 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.318628.3 %, 28292 Done, 0 Failed, 71708 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.346728.4 %, 28429 Done, 0 Failed, 71571 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.347428.6 %, 28578 Done, 0 Failed, 71422 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.390728.7 %, 28708 Done, 0 Failed, 71292 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.299628.9 %, 28862 Done, 0 Failed, 71138 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.375129.0 %, 28996 Done, 0 Failed, 71004 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.317529.1 %, 29141 Done, 0 Failed, 70859 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.360329.3 %, 29283 Done, 0 Failed, 70717 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344429.4 %, 29425 Done, 0 Failed, 70575 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.329929.6 %, 29566 Done, 0 Failed, 70434 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.351829.7 %, 29705 Done, 0 Failed, 70295 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.337629.8 %, 29852 Done, 0 Failed, 70148 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.328 30.0 %, 29990 Done, 0 Failed, 70010 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.349130.1 %, 30134 Done, 0 Failed, 69866 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.379730.3 %, 30273 Done, 0 Failed, 69727 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.356630.4 %, 30412 Done, 0 Failed, 69588 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.332230.6 %, 30556 Done, 0 Failed, 69444 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.363330.7 %, 30694 Done, 0 Failed, 69306 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.350530.9 %, 30839 Done, 0 Failed, 69161 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.351431.0 %, 30978 Done, 0 Failed, 69022 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344531.2 %, 31119 Done, 0 Failed, 68881 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340131.3 %, 31262 Done, 0 Failed, 68738 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.349131.4 %, 31405 Done, 0 Failed, 68595 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.357831.6 %, 31543 Done, 0 Failed, 68457 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.315631.7 %, 31684 Done, 0 Failed, 68316 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.354431.9 %, 31823 Done, 0 Failed, 68177 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.370632.0 %, 31964 Done, 0 Failed, 68036 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.318932.1 %, 32108 Done, 0 Failed, 67892 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340632.3 %, 32247 Done, 0 Failed, 67753 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.332232.4 %, 32392 Done, 0 Failed, 67608 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.351832.6 %, 32527 Done, 0 Failed, 67473 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340332.7 %, 32676 Done, 0 Failed, 67324 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.371632.9 %, 32810 Done, 0 Failed, 67190 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.329933.0 %, 32950 Done, 0 Failed, 67050 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.331933.1 %, 33098 Done, 0 Failed, 66902 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.348833.3 %, 33233 Done, 0 Failed, 66767 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.319833.4 %, 33383 Done, 0 Failed, 66617 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.362433.6 %, 33519 Done, 0 Failed, 66481 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.346633.7 %, 33665 Done, 0 Failed, 66335 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.351133.9 %, 33801 Done, 0 Failed, 66199 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341234.0 %, 33948 Done, 0 Failed, 66052 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.367534.1 %, 34088 Done, 0 Failed, 65912 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.347934.3 %, 34230 Done, 0 Failed, 65770 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.319734.4 %, 34373 Done, 0 Failed, 65627 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340734.6 %, 34508 Done, 0 Failed, 65492 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.330834.7 %, 34657 Done, 0 Failed, 65343 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.337634.8 %, 34794 Done, 0 Failed, 65206 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.310235.0 %, 34936 Done, 0 Failed, 65064 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.363935.1 %, 35078 Done, 0 Failed, 64922 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.343635.3 %, 35221 Done, 0 Failed, 64779 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.349 35.4 %, 35362 Done, 0 Failed, 64638 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.356535.6 %, 35504 Done, 0 Failed, 64496 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.370435.7 %, 35644 Done, 0 Failed, 64356 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340535.8 %, 35786 Done, 0 Failed, 64214 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.325536.0 %, 35929 Done, 0 Failed, 64071 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.312836.1 %, 36070 Done, 0 Failed, 63930 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.355 36.3 %, 36214 Done, 0 Failed, 63786 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.361436.4 %, 36351 Done, 0 Failed, 63649 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.323836.5 %, 36481 Done, 0 Failed, 63519 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.331 36.7 %, 36634 Done, 0 Failed, 63366 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.37536.8 %, 36768 Done, 0 Failed, 63232 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340537.0 %, 36909 Done, 0 Failed, 63091 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.364637.1 %, 37053 Done, 0 Failed, 62947 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.359437.3 %, 37190 Done, 0 Failed, 62810 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.326937.4 %, 37339 Done, 0 Failed, 62661 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.356937.5 %, 37475 Done, 0 Failed, 62525 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.311337.7 %, 37623 Done, 0 Failed, 62377 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.357 37.8 %, 37756 Done, 0 Failed, 62244 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.325338.0 %, 37905 Done, 0 Failed, 62095 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.381 38.1 %, 38044 Done, 0 Failed, 61956 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.360438.3 %, 38187 Done, 0 Failed, 61813 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.349438.4 %, 38330 Done, 0 Failed, 61670 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.353438.6 %, 38468 Done, 0 Failed, 61532 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340738.7 %, 38614 Done, 0 Failed, 61386 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.336738.8 %, 38752 Done, 0 Failed, 61248 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.345539.0 %, 38896 Done, 0 Failed, 61104 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.343739.1 %, 39036 Done, 0 Failed, 60964 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.325 39.3 %, 39176 Done, 0 Failed, 60824 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.324639.4 %, 39321 Done, 0 Failed, 60679 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.338 39.5 %, 39457 Done, 0 Failed, 60543 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.343339.7 %, 39599 Done, 0 Failed, 60401 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.319839.8 %, 39743 Done, 0 Failed, 60257 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344539.9 %, 39883 Done, 0 Failed, 60117 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341540.1 %, 40025 Done, 0 Failed, 59975 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.324840.2 %, 40161 Done, 0 Failed, 59839 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.350640.4 %, 40299 Done, 0 Failed, 59701 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.353540.5 %, 40444 Done, 0 Failed, 59556 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.371540.7 %, 40587 Done, 0 Failed, 59413 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.339140.8 %, 40729 Done, 0 Failed, 59271 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341840.9 %, 40870 Done, 0 Failed, 59130 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341441.1 %, 41008 Done, 0 Failed, 58992 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333741.2 %, 41151 Done, 0 Failed, 58849 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.353541.4 %, 41293 Done, 0 Failed, 58707 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341241.5 %, 41428 Done, 0 Failed, 58572 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.316641.6 %, 41580 Done, 0 Failed, 58420 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.357241.8 %, 41712 Done, 0 Failed, 58288 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.345641.9 %, 41862 Done, 0 Failed, 58138 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.346542.1 %, 41998 Done, 0 Failed, 58002 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.330842.2 %, 42140 Done, 0 Failed, 57860 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.322342.4 %, 42285 Done, 0 Failed, 57715 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.376442.5 %, 42421 Done, 0 Failed, 57579 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.303242.6 %, 42572 Done, 0 Failed, 57428 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34  42.8 %, 42707 Done, 0 Failed, 57293 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.319742.9 %, 42854 Done, 0 Failed, 57146 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.345943.0 %, 42993 Done, 0 Failed, 57007 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.312543.2 %, 43137 Done, 0 Failed, 56863 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.338 43.3 %, 43277 Done, 0 Failed, 56723 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.316943.4 %, 43417 Done, 0 Failed, 56583 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344443.6 %, 43560 Done, 0 Failed, 56440 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.323843.7 %, 43699 Done, 0 Failed, 56301 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.345643.8 %, 43840 Done, 0 Failed, 56160 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.348644.0 %, 43968 Done, 0 Failed, 56032 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.29  44.1 %, 44122 Done, 0 Failed, 55878 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.374144.3 %, 44256 Done, 0 Failed, 55744 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.332744.4 %, 44398 Done, 0 Failed, 55602 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.342944.6 %, 44544 Done, 0 Failed, 55456 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.367444.7 %, 44681 Done, 0 Failed, 55319 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.372844.9 %, 44830 Done, 0 Failed, 55170 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.352345.0 %, 44964 Done, 0 Failed, 55036 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.33  45.1 %, 45112 Done, 0 Failed, 54888 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.36245.3 %, 45246 Done, 0 Failed, 54754 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.318745.4 %, 45394 Done, 0 Failed, 54606 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.355245.6 %, 45533 Done, 0 Failed, 54467 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.354245.7 %, 45675 Done, 0 Failed, 54325 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.321845.9 %, 45818 Done, 0 Failed, 54182 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.342246.0 %, 45960 Done, 0 Failed, 54040 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.330246.1 %, 46102 Done, 0 Failed, 53898 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.355246.3 %, 46245 Done, 0 Failed, 53755 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.370546.4 %, 46384 Done, 0 Failed, 53616 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.324 46.6 %, 46525 Done, 0 Failed, 53475 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.353146.7 %, 46667 Done, 0 Failed, 53333 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.365546.9 %, 46810 Done, 0 Failed, 53190 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340947.0 %, 46952 Done, 0 Failed, 53048 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.337 47.1 %, 47097 Done, 0 Failed, 52903 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.322447.3 %, 47230 Done, 0 Failed, 52770 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.309347.4 %, 47374 Done, 0 Failed, 52626 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340447.5 %, 47516 Done, 0 Failed, 52484 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.324547.7 %, 47658 Done, 0 Failed, 52342 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.330547.8 %, 47803 Done, 0 Failed, 52197 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.355148.0 %, 47941 Done, 0 Failed, 52059 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.335248.1 %, 48084 Done, 0 Failed, 51916 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.374448.2 %, 48227 Done, 0 Failed, 51773 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.323848.4 %, 48364 Done, 0 Failed, 51636 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.312548.5 %, 48498 Done, 0 Failed, 51502 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344748.7 %, 48646 Done, 0 Failed, 51354 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.374748.8 %, 48786 Done, 0 Failed, 51214 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.348849.0 %, 48929 Done, 0 Failed, 51071 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.335949.1 %, 49073 Done, 0 Failed, 50927 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.370649.2 %, 49208 Done, 0 Failed, 50792 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.295449.4 %, 49355 Done, 0 Failed, 50645 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341 49.5 %, 49487 Done, 0 Failed, 50513 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.342949.7 %, 49638 Done, 0 Failed, 50362 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.367549.8 %, 49775 Done, 0 Failed, 50225 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.331349.9 %, 49921 Done, 0 Failed, 50079 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.359750.1 %, 50060 Done, 0 Failed, 49940 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340950.2 %, 50198 Done, 0 Failed, 49802 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.308350.4 %, 50346 Done, 0 Failed, 49654 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.366650.5 %, 50479 Done, 0 Failed, 49521 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.315350.6 %, 50628 Done, 0 Failed, 49372 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.361550.8 %, 50763 Done, 0 Failed, 49237 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.309350.9 %, 50908 Done, 0 Failed, 49092 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.361151.1 %, 51049 Done, 0 Failed, 48951 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.381551.2 %, 51190 Done, 0 Failed, 48810 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.324951.4 %, 51334 Done, 0 Failed, 48666 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340451.5 %, 51473 Done, 0 Failed, 48527 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.356951.6 %, 51617 Done, 0 Failed, 48383 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.35  51.8 %, 51753 Done, 0 Failed, 48247 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.337251.9 %, 51901 Done, 0 Failed, 48099 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.373 52.1 %, 52037 Done, 0 Failed, 47963 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.331352.2 %, 52178 Done, 0 Failed, 47822 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.342952.4 %, 52323 Done, 0 Failed, 47677 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.351752.5 %, 52460 Done, 0 Failed, 47540 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.317652.6 %, 52604 Done, 0 Failed, 47396 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.332352.8 %, 52744 Done, 0 Failed, 47256 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.334252.9 %, 52877 Done, 0 Failed, 47123 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.324 53.0 %, 53030 Done, 0 Failed, 46970 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.355653.2 %, 53161 Done, 0 Failed, 46839 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.328353.3 %, 53311 Done, 0 Failed, 46689 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.361853.5 %, 53448 Done, 0 Failed, 46552 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340453.6 %, 53589 Done, 0 Failed, 46411 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.353853.8 %, 53735 Done, 0 Failed, 46265 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.360353.9 %, 53871 Done, 0 Failed, 46129 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.328554.1 %, 54020 Done, 0 Failed, 45980 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.380854.2 %, 54154 Done, 0 Failed, 45846 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.314254.3 %, 54301 Done, 0 Failed, 45699 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.335854.5 %, 54440 Done, 0 Failed, 45560 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340754.6 %, 54578 Done, 0 Failed, 45422 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.365754.8 %, 54725 Done, 0 Failed, 45275 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.359654.9 %, 54864 Done, 0 Failed, 45136 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.351255.1 %, 55001 Done, 0 Failed, 44999 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.339 55.2 %, 55145 Done, 0 Failed, 44855 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.332255.3 %, 55288 Done, 0 Failed, 44712 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.361555.5 %, 55426 Done, 0 Failed, 44574 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.357855.6 %, 55573 Done, 0 Failed, 44427 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.374 55.8 %, 55710 Done, 0 Failed, 44290 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.331155.9 %, 55853 Done, 0 Failed, 44147 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.321956.1 %, 55990 Done, 0 Failed, 44010 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.337 56.2 %, 56132 Done, 0 Failed, 43868 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.346256.3 %, 56276 Done, 0 Failed, 43724 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340356.5 %, 56414 Done, 0 Failed, 43586 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.351856.6 %, 56554 Done, 0 Failed, 43446 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.310956.8 %, 56693 Done, 0 Failed, 43307 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.325556.9 %, 56835 Done, 0 Failed, 43165 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.346657.0 %, 56977 Done, 0 Failed, 43023 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344657.2 %, 57116 Done, 0 Failed, 42884 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.331257.3 %, 57259 Done, 0 Failed, 42741 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.353157.5 %, 57400 Done, 0 Failed, 42600 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.355757.6 %, 57541 Done, 0 Failed, 42459 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.352457.8 %, 57679 Done, 0 Failed, 42321 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.343 57.9 %, 57823 Done, 0 Failed, 42177 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.337258.0 %, 57965 Done, 0 Failed, 42035 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.356458.2 %, 58101 Done, 0 Failed, 41899 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.342858.3 %, 58242 Done, 0 Failed, 41758 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.343 58.4 %, 58287 Done, 0 Failed, 41713 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.108258.4 %, 58287 Done, 0 Failed, 41713 Pending, 0 Skipped, 100000 Total,                                58.4 %, 58287 Done, 0 Failed, 41713 Pending, 0 Skipped, 100000 Total, 58.4 %, 58287 Done, 0 Failed, 41713 Pending, 0 Skipped, 100000 Total, 58.5 %, 58385 Done, 0 Failed, 41615 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.245858.6 %, 58515 Done, 0 Failed, 41485 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.299558.7 %, 58658 Done, 0 Failed, 41342 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.337358.9 %, 58803 Done, 0 Failed, 41197 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.356359.0 %, 58935 Done, 0 Failed, 41065 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.323559.2 %, 59088 Done, 0 Failed, 40912 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.395659.3 %, 59219 Done, 0 Failed, 40781 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.327659.5 %, 59363 Done, 0 Failed, 40637 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.345159.6 %, 59505 Done, 0 Failed, 40495 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.342259.7 %, 59645 Done, 0 Failed, 40355 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.332459.9 %, 59793 Done, 0 Failed, 40207 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.378160.0 %, 59923 Done, 0 Failed, 40077 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.290260.2 %, 60067 Done, 0 Failed, 39933 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.353 60.3 %, 60209 Done, 0 Failed, 39791 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.346860.4 %, 60349 Done, 0 Failed, 39651 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.300260.6 %, 60493 Done, 0 Failed, 39507 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.343260.7 %, 60632 Done, 0 Failed, 39368 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34  60.8 %, 60770 Done, 0 Failed, 39230 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.334461.0 %, 60916 Done, 0 Failed, 39084 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.328461.1 %, 61054 Done, 0 Failed, 38946 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.343461.3 %, 61194 Done, 0 Failed, 38806 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341261.4 %, 61337 Done, 0 Failed, 38663 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.342861.5 %, 61475 Done, 0 Failed, 38525 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340861.7 %, 61620 Done, 0 Failed, 38380 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.371961.8 %, 61760 Done, 0 Failed, 38240 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.36  62.0 %, 61899 Done, 0 Failed, 38101 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.342762.1 %, 62042 Done, 0 Failed, 37958 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.360162.3 %, 62180 Done, 0 Failed, 37820 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.329162.4 %, 62322 Done, 0 Failed, 37678 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.327762.5 %, 62464 Done, 0 Failed, 37536 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.336662.7 %, 62602 Done, 0 Failed, 37398 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.334162.8 %, 62747 Done, 0 Failed, 37253 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.335963.0 %, 62885 Done, 0 Failed, 37115 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.359763.1 %, 63030 Done, 0 Failed, 36970 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.346563.2 %, 63169 Done, 0 Failed, 36831 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.308163.4 %, 63308 Done, 0 Failed, 36692 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.342363.5 %, 63450 Done, 0 Failed, 36550 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.360663.7 %, 63588 Done, 0 Failed, 36412 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.356863.8 %, 63734 Done, 0 Failed, 36266 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.357964.0 %, 63873 Done, 0 Failed, 36127 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.324764.1 %, 64017 Done, 0 Failed, 35983 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.339 64.2 %, 64154 Done, 0 Failed, 35846 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.318664.4 %, 64297 Done, 0 Failed, 35703 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.351464.5 %, 64436 Done, 0 Failed, 35564 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.350264.7 %, 64575 Done, 0 Failed, 35425 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.325664.8 %, 64719 Done, 0 Failed, 35281 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.354965.0 %, 64858 Done, 0 Failed, 35142 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.361865.1 %, 65001 Done, 0 Failed, 34999 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.349265.2 %, 65140 Done, 0 Failed, 34860 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.332565.4 %, 65283 Done, 0 Failed, 34717 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.338365.5 %, 65424 Done, 0 Failed, 34576 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.364165.7 %, 65561 Done, 0 Failed, 34439 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.327965.8 %, 65705 Done, 0 Failed, 34295 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.357965.9 %, 65846 Done, 0 Failed, 34154 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.331366.1 %, 65984 Done, 0 Failed, 34016 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.336566.2 %, 66130 Done, 0 Failed, 33870 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.329466.4 %, 66267 Done, 0 Failed, 33733 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.339866.5 %, 66410 Done, 0 Failed, 33590 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.329866.6 %, 66552 Done, 0 Failed, 33448 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.361366.8 %, 66693 Done, 0 Failed, 33307 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.327866.9 %, 66832 Done, 0 Failed, 33168 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340267.1 %, 66972 Done, 0 Failed, 33028 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.328267.2 %, 67110 Done, 0 Failed, 32890 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.327567.3 %, 67254 Done, 0 Failed, 32746 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.316167.5 %, 67392 Done, 0 Failed, 32608 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.336967.6 %, 67535 Done, 0 Failed, 32465 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.331567.7 %, 67675 Done, 0 Failed, 32325 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.360667.9 %, 67814 Done, 0 Failed, 32186 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341368.0 %, 67956 Done, 0 Failed, 32044 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.314568.2 %, 68097 Done, 0 Failed, 31903 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333368.3 %, 68236 Done, 0 Failed, 31764 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.325268.4 %, 68381 Done, 0 Failed, 31619 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.351 68.6 %, 68516 Done, 0 Failed, 31484 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.322368.7 %, 68659 Done, 0 Failed, 31341 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.369168.9 %, 68799 Done, 0 Failed, 31201 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.331669.0 %, 68940 Done, 0 Failed, 31060 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.315769.1 %, 69082 Done, 0 Failed, 30918 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344569.3 %, 69223 Done, 0 Failed, 30777 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.342169.4 %, 69364 Done, 0 Failed, 30636 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.338769.6 %, 69507 Done, 0 Failed, 30493 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.349869.7 %, 69644 Done, 0 Failed, 30356 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.317469.8 %, 69790 Done, 0 Failed, 30210 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.343670.0 %, 69930 Done, 0 Failed, 30070 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.342270.1 %, 70071 Done, 0 Failed, 29929 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.350370.3 %, 70209 Done, 0 Failed, 29791 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.339370.4 %, 70349 Done, 0 Failed, 29651 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.331970.5 %, 70489 Done, 0 Failed, 29511 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.337370.7 %, 70624 Done, 0 Failed, 29376 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.312970.8 %, 70764 Done, 0 Failed, 29236 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.352570.9 %, 70906 Done, 0 Failed, 29094 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333871.1 %, 71046 Done, 0 Failed, 28954 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.298371.2 %, 71190 Done, 0 Failed, 28810 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.356371.4 %, 71328 Done, 0 Failed, 28672 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.349771.5 %, 71472 Done, 0 Failed, 28528 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.362971.6 %, 71611 Done, 0 Failed, 28389 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.328471.8 %, 71751 Done, 0 Failed, 28249 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.345271.9 %, 71894 Done, 0 Failed, 28106 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.345272.1 %, 72035 Done, 0 Failed, 27965 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.335872.2 %, 72176 Done, 0 Failed, 27824 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333772.4 %, 72311 Done, 0 Failed, 27689 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.342872.5 %, 72457 Done, 0 Failed, 27543 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340672.6 %, 72596 Done, 0 Failed, 27404 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.35  72.8 %, 72738 Done, 0 Failed, 27262 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.358972.9 %, 72879 Done, 0 Failed, 27121 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333373.1 %, 73018 Done, 0 Failed, 26982 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.334373.2 %, 73160 Done, 0 Failed, 26840 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.338573.3 %, 73303 Done, 0 Failed, 26697 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.315973.5 %, 73444 Done, 0 Failed, 26556 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.337473.6 %, 73575 Done, 0 Failed, 26425 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.325973.7 %, 73723 Done, 0 Failed, 26277 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.338773.9 %, 73860 Done, 0 Failed, 26140 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340774.0 %, 74006 Done, 0 Failed, 25994 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.357674.2 %, 74143 Done, 0 Failed, 25857 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.330374.3 %, 74275 Done, 0 Failed, 25725 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340774.5 %, 74430 Done, 0 Failed, 25570 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.370974.6 %, 74563 Done, 0 Failed, 25437 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.322474.7 %, 74707 Done, 0 Failed, 25293 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.372674.9 %, 74847 Done, 0 Failed, 25153 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.350175.0 %, 74984 Done, 0 Failed, 25016 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.330775.2 %, 75135 Done, 0 Failed, 24865 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.377475.3 %, 75268 Done, 0 Failed, 24732 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.325375.5 %, 75413 Done, 0 Failed, 24587 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.374375.6 %, 75554 Done, 0 Failed, 24446 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.347 75.8 %, 75696 Done, 0 Failed, 24304 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.349875.9 %, 75839 Done, 0 Failed, 24161 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.339776.0 %, 75973 Done, 0 Failed, 24027 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.299976.2 %, 76118 Done, 0 Failed, 23882 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.368576.3 %, 76256 Done, 0 Failed, 23744 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.337876.5 %, 76402 Done, 0 Failed, 23598 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.351576.6 %, 76539 Done, 0 Failed, 23461 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.343176.8 %, 76671 Done, 0 Failed, 23329 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.338776.9 %, 76822 Done, 0 Failed, 23178 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.345577.0 %, 76956 Done, 0 Failed, 23044 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.337877.2 %, 77100 Done, 0 Failed, 22900 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.355977.3 %, 77238 Done, 0 Failed, 22762 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.346477.5 %, 77376 Done, 0 Failed, 22624 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.317177.6 %, 77512 Done, 0 Failed, 22488 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.320277.7 %, 77659 Done, 0 Failed, 22341 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333477.8 %, 77797 Done, 0 Failed, 22203 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.299978.0 %, 77938 Done, 0 Failed, 22062 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.336178.1 %, 78072 Done, 0 Failed, 21928 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.320178.3 %, 78212 Done, 0 Failed, 21788 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.322578.4 %, 78352 Done, 0 Failed, 21648 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.314278.5 %, 78489 Done, 0 Failed, 21511 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.337378.7 %, 78640 Done, 0 Failed, 21360 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.368478.8 %, 78774 Done, 0 Failed, 21226 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.328379.0 %, 78911 Done, 0 Failed, 21089 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.351579.1 %, 79058 Done, 0 Failed, 20942 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.367179.2 %, 79196 Done, 0 Failed, 20804 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.331479.4 %, 79344 Done, 0 Failed, 20656 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.366879.5 %, 79482 Done, 0 Failed, 20518 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.331779.7 %, 79623 Done, 0 Failed, 20377 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.365979.8 %, 79769 Done, 0 Failed, 20231 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.355980.0 %, 79899 Done, 0 Failed, 20101 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.320980.1 %, 80051 Done, 0 Failed, 19949 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.385480.2 %, 80186 Done, 0 Failed, 19814 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.328980.4 %, 80318 Done, 0 Failed, 19682 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.319780.5 %, 80462 Done, 0 Failed, 19538 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340580.7 %, 80601 Done, 0 Failed, 19399 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.315780.8 %, 80743 Done, 0 Failed, 19257 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.336680.9 %, 80883 Done, 0 Failed, 19117 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.328281.1 %, 81017 Done, 0 Failed, 18983 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.33  81.2 %, 81168 Done, 0 Failed, 18832 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.36781.4 %, 81303 Done, 0 Failed, 18697 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.336681.5 %, 81452 Done, 0 Failed, 18548 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.372781.7 %, 81587 Done, 0 Failed, 18413 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340181.8 %, 81729 Done, 0 Failed, 18271 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.338881.9 %, 81874 Done, 0 Failed, 18126 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.351482.1 %, 82010 Done, 0 Failed, 17990 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.321182.2 %, 82155 Done, 0 Failed, 17845 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.357782.4 %, 82293 Done, 0 Failed, 17707 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.336382.5 %, 82438 Done, 0 Failed, 17562 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.334382.6 %, 82575 Done, 0 Failed, 17425 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.32  82.8 %, 82720 Done, 0 Failed, 17280 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34682.9 %, 82857 Done, 0 Failed, 17143 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.325483.1 %, 83002 Done, 0 Failed, 16998 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.352383.2 %, 83144 Done, 0 Failed, 16856 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.347683.3 %, 83275 Done, 0 Failed, 16725 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.318583.5 %, 83427 Done, 0 Failed, 16573 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.343783.6 %, 83563 Done, 0 Failed, 16437 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.334283.7 %, 83709 Done, 0 Failed, 16291 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.354683.9 %, 83849 Done, 0 Failed, 16151 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.329284.0 %, 83991 Done, 0 Failed, 16009 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340384.2 %, 84135 Done, 0 Failed, 15865 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34  84.3 %, 84269 Done, 0 Failed, 15731 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.349384.5 %, 84420 Done, 0 Failed, 15580 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.361684.6 %, 84552 Done, 0 Failed, 15448 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.304284.7 %, 84697 Done, 0 Failed, 15303 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.368584.9 %, 84840 Done, 0 Failed, 15160 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.348585.0 %, 84977 Done, 0 Failed, 15023 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.339 85.2 %, 85122 Done, 0 Failed, 14878 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.358985.3 %, 85259 Done, 0 Failed, 14741 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.350485.5 %, 85403 Done, 0 Failed, 14597 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.335985.6 %, 85544 Done, 0 Failed, 14456 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.343385.7 %, 85685 Done, 0 Failed, 14315 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340985.9 %, 85829 Done, 0 Failed, 14171 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344486.0 %, 85969 Done, 0 Failed, 14031 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340986.2 %, 86109 Done, 0 Failed, 13891 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.334286.3 %, 86250 Done, 0 Failed, 13750 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.346886.4 %, 86390 Done, 0 Failed, 13610 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.307186.6 %, 86532 Done, 0 Failed, 13468 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.359686.7 %, 86646 Done, 0 Failed, 13354 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.286 86.8 %, 86805 Done, 0 Failed, 13195 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.398387.0 %, 86934 Done, 0 Failed, 13066 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.312387.1 %, 87091 Done, 0 Failed, 12909 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.353387.3 %, 87221 Done, 0 Failed, 12779 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.325487.4 %, 87372 Done, 0 Failed, 12628 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.355787.6 %, 87506 Done, 0 Failed, 12494 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.320987.7 %, 87653 Done, 0 Failed, 12347 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.360287.8 %, 87794 Done, 0 Failed, 12206 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.326588.0 %, 87936 Done, 0 Failed, 12064 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.345688.1 %, 88079 Done, 0 Failed, 11921 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.330788.3 %, 88215 Done, 0 Failed, 11785 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.327488.4 %, 88365 Done, 0 Failed, 11635 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.358988.5 %, 88501 Done, 0 Failed, 11499 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.308688.7 %, 88648 Done, 0 Failed, 11352 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344388.8 %, 88787 Done, 0 Failed, 11213 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.358189.0 %, 88926 Done, 0 Failed, 11074 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.349289.1 %, 89072 Done, 0 Failed, 10928 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344289.2 %, 89212 Done, 0 Failed, 10788 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.349189.4 %, 89354 Done, 0 Failed, 10646 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.322289.5 %, 89498 Done, 0 Failed, 10502 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.342689.7 %, 89638 Done, 0 Failed, 10362 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.331189.8 %, 89778 Done, 0 Failed, 10222 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333 89.9 %, 89920 Done, 0 Failed, 10080 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.34590.1 %, 90065 Done, 0 Failed, 9935 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.364790.2 %, 90203 Done, 0 Failed, 9797 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.332490.4 %, 90344 Done, 0 Failed, 9656 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.352490.5 %, 90487 Done, 0 Failed, 9513 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.369490.7 %, 90630 Done, 0 Failed, 9370 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.347190.8 %, 90770 Done, 0 Failed, 9230 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344891.0 %, 90912 Done, 0 Failed, 9088 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.347991.1 %, 91053 Done, 0 Failed, 8947 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.347191.2 %, 91194 Done, 0 Failed, 8806 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.363391.4 %, 91337 Done, 0 Failed, 8663 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.334191.5 %, 91480 Done, 0 Failed, 8520 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.359791.7 %, 91618 Done, 0 Failed, 8382 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.323491.8 %, 91766 Done, 0 Failed, 8234 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.365292.0 %, 91906 Done, 0 Failed, 8094 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341992.1 %, 92047 Done, 0 Failed, 7953 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.321792.2 %, 92188 Done, 0 Failed, 7812 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.370292.4 %, 92330 Done, 0 Failed, 7670 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.348692.5 %, 92472 Done, 0 Failed, 7528 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.344392.7 %, 92613 Done, 0 Failed, 7387 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.338392.8 %, 92759 Done, 0 Failed, 7241 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.337692.9 %, 92897 Done, 0 Failed, 7103 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.334793.1 %, 93042 Done, 0 Failed, 6958 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341793.2 %, 93180 Done, 0 Failed, 6820 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.304893.4 %, 93326 Done, 0 Failed, 6674 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.359993.5 %, 93466 Done, 0 Failed, 6534 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.354393.6 %, 93610 Done, 0 Failed, 6390 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.330693.8 %, 93746 Done, 0 Failed, 6254 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.312893.9 %, 93894 Done, 0 Failed, 6106 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.35  94.1 %, 94032 Done, 0 Failed, 5968 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.315594.2 %, 94178 Done, 0 Failed, 5822 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.357994.3 %, 94315 Done, 0 Failed, 5685 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.343394.5 %, 94461 Done, 0 Failed, 5539 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341494.6 %, 94603 Done, 0 Failed, 5397 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.342 94.8 %, 94744 Done, 0 Failed, 5256 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.334894.9 %, 94887 Done, 0 Failed, 5113 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.360395.0 %, 95025 Done, 0 Failed, 4975 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.318 95.2 %, 95169 Done, 0 Failed, 4831 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.352395.3 %, 95312 Done, 0 Failed, 4688 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.362495.5 %, 95453 Done, 0 Failed, 4547 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.358395.6 %, 95596 Done, 0 Failed, 4404 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.359995.8 %, 95737 Done, 0 Failed, 4263 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.339295.9 %, 95880 Done, 0 Failed, 4120 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.352196.1 %, 96021 Done, 0 Failed, 3979 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341 96.2 %, 96165 Done, 0 Failed, 3835 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.352296.3 %, 96307 Done, 0 Failed, 3693 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.310896.5 %, 96450 Done, 0 Failed, 3550 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341496.6 %, 96591 Done, 0 Failed, 3409 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.347996.8 %, 96731 Done, 0 Failed, 3269 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.338996.9 %, 96874 Done, 0 Failed, 3126 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.355497.0 %, 97016 Done, 0 Failed, 2984 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.342597.2 %, 97159 Done, 0 Failed, 2841 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.373 97.4 %, 97301 Done, 0 Failed, 2699 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.369297.5 %, 97443 Done, 0 Failed, 2557 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.343297.6 %, 97582 Done, 0 Failed, 2418 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.337497.8 %, 97726 Done, 0 Failed, 2274 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.322297.9 %, 97864 Done, 0 Failed, 2136 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333 98.1 %, 98008 Done, 0 Failed, 1992 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.361998.2 %, 98149 Done, 0 Failed, 1851 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.325498.3 %, 98291 Done, 0 Failed, 1709 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.341698.5 %, 98433 Done, 0 Failed, 1567 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.352 98.6 %, 98577 Done, 0 Failed, 1423 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.328998.7 %, 98719 Done, 0 Failed, 1281 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.316298.9 %, 98861 Done, 0 Failed, 1139 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.352 99.0 %, 99001 Done, 0 Failed, 999 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.356299.2 %, 99143 Done, 0 Failed, 857 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.333 99.3 %, 99285 Done, 0 Failed, 715 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.30599.4 %, 99427 Done, 0 Failed, 573 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.329499.6 %, 99568 Done, 0 Failed, 432 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.340699.7 %, 99712 Done, 0 Failed, 288 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.364699.9 %, 99854 Done, 0 Failed, 146 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.3375100.0 %, 99995 Done, 0 Failed, 5 Pending, 0 Skipped, 100000 Total, 2-sec Throughput (Mb/s): 0.2877 100.0 %, 100000 Done, 0 Failed, 0 Pending, 0 Skipped, 100000 Total,                               
+
+
+Job 5850a499-5a54-834d-5e18-bf3a137991f0 summary
+Elapsed Time (Minutes): 23.8455
+Number of File Transfers: 100000
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 100000
+Number of Transfers Completed: 100000
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 60540367
+Final Job Status: Completed
+
+INFO: Scanning...
+INFO: Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+
+Job cb0b69f7-8de8-b74e-5ab7-f696dbe9e915 has started
+Log file is located at: /home/ubuntu/.azcopy/cb0b69f7-8de8-b74e-5ab7-f696dbe9e915.log
+
+100.0 %, 2 Done, 0 Failed, 0 Pending, 0 Skipped, 2 Total, 2-sec Throughput (Mb/s): 0.0686
+
+
+Job cb0b69f7-8de8-b74e-5ab7-f696dbe9e915 summary
+Elapsed Time (Minutes): 0.0334
+Number of File Transfers: 2
+Number of Folder Property Transfers: 0
+Total Number of Transfers: 2
+Number of Transfers Completed: 2
+Number of Transfers Failed: 0
+Number of Transfers Skipped: 0
+TotalBytesTransferred: 17156
+Final Job Status: Completed
+
+Creating SQL scripts...
+
+[32;1mid         : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resourceGroups
+             [32;1m[0m/data-engineering-synapse-pl50xbj/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacepl50xbj/sqlscripts/Column Level Security
+[32;1mname       : [0mColumn Level Security
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/sqlscripts
+[32;1mproperties : [0m@{content=; type=SqlQuery}
+[32;1metag       : [0m7001a750-0000-1900-0000-636c2bc00000
+
+
+[32;1mid         : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resourceGroups
+             [32;1m[0m/data-engineering-synapse-pl50xbj/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacepl50xbj/sqlscripts/Dynamic Data Masking
+[32;1mname       : [0mDynamic Data Masking
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/sqlscripts
+[32;1mproperties : [0m@{content=; type=SqlQuery}
+[32;1metag       : [0m70014b51-0000-1900-0000-636c2bd20000
+
+
+[32;1mid         : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resourceGroups
+             [32;1m[0m/data-engineering-synapse-pl50xbj/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacepl50xbj/sqlscripts/Row Level Security
+[32;1mname       : [0mRow Level Security
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/sqlscripts
+[32;1mproperties : [0m@{content=; type=SqlQuery}
+[32;1metag       : [0m70017951-0000-1900-0000-636c2bdb0000
+
+
+[32;1mid         : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resourceGroups
+             [32;1m[0m/data-engineering-synapse-pl50xbj/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacepl50xbj/sqlscripts/Data Warehouse Optimization
+[32;1mname       : [0mData Warehouse Optimization
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/sqlscripts
+[32;1mproperties : [0m@{content=; type=SqlQuery}
+[32;1metag       : [0m70011552-0000-1900-0000-636c2be90000
+
+
+# Values from the Second setup script here
+$dataLakeStorageAccountKey = "sE7KF2yK4GwitDbMZ5vvSBc6yYOSmjSK4ygMJS0IeIS45HNQ0qL8rq6AGrvpOMF9ZS+2p1Tzfd/P+AStTozhOw=="
+$dataLakeAccountName = "asadatalakepl50xbj"
+
+Script2 Complete!
+Loading Cosmos DB...
+
+[32;1mName     : [0mOnlineUserProfile01
+[32;1mId       : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resourceGroups/d
+           [32;1m[0mata-engineering-synapse-pl50xbj/providers/Microsoft.DocumentDB/datab
+           [32;1m[0maseAccounts/asacosmosdbpl50xbj/sqlDatabases/CustomerProfile/containe
+           [32;1m[0mrs/OnlineUserProfile01
+[32;1mLocation : [0m
+[32;1mTags     : [0m
+[32;1mResource : [0mMicrosoft.Azure.Commands.CosmosDB.Models.PSSqlContainerGetProperties
+           [32;1m[0mResource
+
+
+[32;1mid         : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resourceGroups
+             [32;1m[0m/data-engineering-synapse-pl50xbj/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacepl50xbj/datasets/wwi02_online_user_profiles_01_
+             [32;1m[0madal
+[32;1mname       : [0mwwi02_online_user_profiles_01_adal
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/datasets
+[32;1mproperties : [0m@{linkedServiceName=; annotations=System.Object[]; type=Json; type
+             [32;1m[0mProperties=; schema=}
+[32;1metag       : [0m70010a54-0000-1900-0000-636c2c250000
+
+
+[32;1mid         : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resourceGroups
+             [32;1m[0m/data-engineering-synapse-pl50xbj/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacepl50xbj/linkedservices/asacosmosdbpl50xbj
+[32;1mname       : [0masacosmosdbpl50xbj
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/linkedservices
+[32;1mproperties : [0m@{annotations=System.Object[]; type=CosmosDb; typeProperties=}
+[32;1metag       : [0m70018154-0000-1900-0000-636c2c2f0000
+
+
+[32;1mid         : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resourceGroups
+             [32;1m[0m/data-engineering-synapse-pl50xbj/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacepl50xbj/datasets/customer_profile_cosmosdb
+[32;1mname       : [0mcustomer_profile_cosmosdb
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/datasets
+[32;1mproperties : [0m@{linkedServiceName=; annotations=System.Object[]; type=CosmosDbSq
+             [32;1m[0mlApiCollection; schema=; typeProperties=}
+[32;1metag       : [0m70010955-0000-1900-0000-636c2c400000
+
+Running pipeline...
+
+[32;1mid         : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resourceGroups
+             [32;1m[0m/data-engineering-synapse-pl50xbj/providers/Microsoft.Synapse/work
+             [32;1m[0mspaces/asaworkspacepl50xbj/pipelines/Setup - Import User Profile D
+             [32;1m[0mata into Cosmos DB
+[32;1mname       : [0mSetup - Import User Profile Data into Cosmos DB
+[32;1mtype       : [0mMicrosoft.Synapse/workspaces/pipelines
+[32;1mproperties : [0m@{description=Copy user profile data from Azure Storage to Azure C
+             [32;1m[0mosmos DB.; activities=System.Object[]; annotations=System.Object[]
+             [32;1m[0m; lastPublishTime=11/09/2022 22:40:13}
+[32;1metag       : [0m70018955-0000-1900-0000-636c2c4d0000
+
+
+[32;1mid                  : [0m/SUBSCRIPTIONS/0F6FD3B8-9D11-4A78-9EB3-9A8E22463514/RESOU
+                      [32;1m[0mRCEGROUPS/DATA-ENGINEERING-SYNAPSE-PL50XBJ/PROVIDERS/MICR
+                      [32;1m[0mOSOFT.SYNAPSE/WORKSPACES/ASAWORKSPACEPL50XBJ/pipelineruns
+                      [32;1m[0m/c7519a44-b3ea-4ffa-86e4-8d34c5b02162
+[32;1mrunId               : [0mc7519a44-b3ea-4ffa-86e4-8d34c5b02162
+[32;1mdebugRunId          : [0m
+[32;1mrunGroupId          : [0mc7519a44-b3ea-4ffa-86e4-8d34c5b02162
+[32;1mpipelineName        : [0mSetup - Import User Profile Data into Cosmos DB
+[32;1mparameters          : [0m
+[32;1minvokedBy           : [0m@{id=34cede9f93c54b0b884e7ffff0fc80b7; name=Manual; invok
+                      [32;1m[0medByType=Manual}
+[32;1mrunStart            : [0m11/09/2022 22:40:24
+[32;1mrunEnd              : [0m11/09/2022 23:18:08
+[32;1mdurationInMs        : [0m2264543
+[32;1mstatus              : [0mSucceeded
+[32;1mmessage             : [0m
+[32;1mpipelineReturnValue : [0m
+[32;1mlastUpdated         : [0m11/09/2022 23:18:08
+[32;1mannotations         : [0m{}
+[32;1mrunDimension        : [0m
+[32;1misLatest            : [0mTrue
+
+
+
+
+
+
+[32;1mName     : [0mOnlineUserProfile01
+[32;1mId       : [0m/subscriptions/0f6fd3b8-9d11-4a78-9eb3-9a8e22463514/resourceGroups/d
+           [32;1m[0mata-engineering-synapse-pl50xbj/providers/Microsoft.DocumentDB/datab
+           [32;1m[0maseAccounts/asacosmosdbpl50xbj/sqlDatabases/CustomerProfile/containe
+           [32;1m[0mrs/OnlineUserProfile01
+[32;1mLocation : [0m
+[32;1mTags     : [0m
+[32;1mResource : [0mMicrosoft.Azure.Commands.CosmosDB.Models.PSSqlContainerGetProperties
+           [32;1m[0mResource
+
+Setup complete!
+
